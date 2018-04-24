@@ -1,0 +1,186 @@
+
+[Device]
+Family = lc4k;
+PartNumber = LC4256ZE-5TN144C;
+Package = 144TQFP;
+PartType = LC4256ZE;
+Speed = -5.8;
+Operating_condition = COM;
+Status = Production;
+
+[Revision]
+Parent = lc4k256e.lci;
+DATE = 2002;
+TIME = 0:00:00;
+Source_Format = Pure_Verilog_HDL;
+Synthesis = Synplify;
+
+[Ignore Assignments]
+
+[Clear Assignments]
+
+[Backannotate Assignments]
+
+[Global Constraints]
+
+[Location Assignments]
+layer = OFF;
+o_BOTRED_5_ = pin,105,-,-,-;
+o_BOTRED_4_ = pin,104,-,-,-;
+DIP_7_ = pin,26,-,-,-;
+o_BOTRED_3_ = pin,103,-,-,-;
+o_BOTRED_2_ = pin,102,-,-,-;
+o_TOPRED_7_ = pin,28,-,-,-;
+o_BOTRED_1_ = pin,101,-,-,-;
+o_BOTRED_0_ = pin,100,-,-,-;
+o_MIDRED_7_ = pin,130,-,-,-;
+o_DIS1_5_ = pin,86,-,-,-;
+o_DIS1_4_ = pin,85,-,-,-;
+o_BOTRED_7_ = pin,112,-,-,-;
+o_DIS1_3_ = pin,84,-,-,-;
+o_DIS1_2_ = pin,83,-,-,-;
+o_DIS1_6_ = pin,87,-,-,-;
+o_DIS1_1_ = pin,81,-,-,-;
+o_DIS1_0_ = pin,80,-,-,-;
+o_DIS2_6_ = pin,98,-,-,-;
+o_DIS2_5_ = pin,97,-,-,-;
+o_DIS2_4_ = pin,96,-,-,-;
+o_DIS3_6_ = pin,125,-,-,-;
+o_DIS2_3_ = pin,95,-,-,-;
+o_DIS2_2_ = pin,94,-,-,-;
+o_DIS4_6_ = pin,44,-,-,-;
+o_DIS2_1_ = pin,93,-,-,-;
+o_DIS2_0_ = pin,88,-,-,-;
+o_JUMBO_3_ = pin,143,-,-,-;
+o_DIS3_5_ = pin,124,-,-,-;
+o_DIS3_4_ = pin,123,-,-,-;
+o_LED_YELLOW_1_ = pin,62,-,-,-;
+o_DIS3_3_ = pin,122,-,-,-;
+i_S1_NC = pin,58,-,-,-;
+o_DIS3_2_ = pin,121,-,-,-;
+i_S1_NO = pin,59,-,-,-;
+o_DIS3_1_ = pin,120,-,-,-;
+i_S2_NC = pin,60,-,-,-;
+o_DIS3_0_ = pin,116,-,-,-;
+i_S2_NO = pin,61,-,-,-;
+o_DIS4_5_ = pin,48,-,-,-;
+o_DIS4_4_ = pin,49,-,-,-;
+o_DIS4_3_ = pin,50,-,-,-;
+o_DIS4_2_ = pin,51,-,-,-;
+o_DIS4_1_ = pin,52,-,-,-;
+o_DIS4_0_ = pin,53,-,-,-;
+o_JUMBO_2_ = pin,142,-,-,-;
+o_JUMBO_1_ = pin,141,-,-,-;
+o_JUMBO_0_ = pin,140,-,-,-;
+o_LED_YELLOW_0_ = pin,63,-,-,-;
+DIP_6_ = pin,25,-,-,-;
+DIP_5_ = pin,24,-,-,-;
+DIP_4_ = pin,23,-,-,-;
+DIP_3_ = pin,76,-,-,-;
+DIP_2_ = pin,77,-,-,-;
+DIP_1_ = pin,78,-,-,-;
+DIP_0_ = pin,79,-,-,-;
+o_TOPRED_6_ = pin,29,-,-,-;
+o_TOPRED_5_ = pin,30,-,-,-;
+o_TOPRED_4_ = pin,31,-,-,-;
+o_TOPRED_3_ = pin,32,-,-,-;
+o_TOPRED_2_ = pin,33,-,-,-;
+o_TOPRED_1_ = pin,39,-,-,-;
+o_TOPRED_0_ = pin,40,-,-,-;
+o_MIDRED_6_ = pin,131,-,-,-;
+o_MIDRED_5_ = pin,132,-,-,-;
+o_MIDRED_4_ = pin,133,-,-,-;
+o_MIDRED_3_ = pin,134,-,-,-;
+o_MIDRED_2_ = pin,135,-,-,-;
+o_MIDRED_1_ = pin,138,-,-,-;
+o_MIDRED_0_ = pin,139,-,-,-;
+o_BOTRED_6_ = pin,111,-,-,-;
+
+[Group Assignments]
+layer = OFF;
+
+[Resource Reservations]
+layer = OFF;
+
+[Fitter Report Format]
+
+[Power]
+
+[Source Constraint Option]
+
+[Fast Bypass]
+
+[OSM Bypass]
+
+[Input Registers]
+
+[Netlist/Delay Format]
+
+[IO Types]
+layer = OFF;
+
+[Pullup]
+
+[Slewrate]
+
+[Region]
+
+[Timing Constraints]
+
+[HSI Attributes]
+
+[Input Delay]
+
+[opt global constraints list]
+
+[Explorer User Settings]
+
+[Pin attributes list]
+
+[global constraints list]
+
+[Global Constraints Process Update]
+
+[pin lock limitation]
+
+[LOCATION ASSIGNMENTS LIST]
+
+[RESOURCE RESERVATIONS LIST]
+
+[individual constraints list]
+
+[Attributes list setting]
+
+[Timing Analyzer]
+
+[PLL Assignments]
+
+[Dual Function Macrocell]
+
+[Explorer Results]
+
+[VHDL synplify constraints]
+
+[VHDL spectrum constraints]
+
+[verilog synplify constraints]
+
+[verilog spectrum constraints]
+
+[VHDL synplify constraints list]
+
+[VHDL spectrum constraints list]
+
+[verilog synplify constraints list]
+
+[verilog spectrum constraints list]
+
+[Power Guard]
+
+[ORP Bypass]
+
+[Register Powerup]
+
+[OSCTIMER Assignments]
+layer = OFF;
+OSCTIMER = -, -, -, tmr_out, 1048576;

@@ -1,0 +1,15 @@
+Signal Name Cross Reference File
+
+ispLEVER Classic 1.7.00.05.28.13
+
+Design 'lab12' created Wed Apr 11 09:44:00 2018
+
+
+ LEGEND:  '>'  Functional Block Port Separator
+          '/'  Hierarchy Path Separator
+          '@'  Automatically Generated Node
+
+
+Short Name                              Hierarchical Name
+----------                              -----------------
+A0_OSCOUT                            	I1>OSCOUT

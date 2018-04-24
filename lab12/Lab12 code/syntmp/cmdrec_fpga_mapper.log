@@ -1,0 +1,9 @@
+C:\ispLEVER_Classic1_7\synpbase\bin64\m_cpld.exe  -prodtype synplify_pro -encrypt  -pro  -rundir  W:\lab12  -part LC4064B  -package T44C  -grade -2.5   -ispmach4s -RWCheckOnRam 1 -areadelay 0 -minc  -auto_constrain_io    -summaryfile W:\lab12\synlog\report\lab12_top_fpga_mapper.xml -top_level_module  lab12_top  -ta_num_paths 3  -ta_num_points 0  -oedif  W:\lab12\lab12_top.edi  -freq 200.000  W:\lab12\synwork\lab12_top_compiler.srs  -ologparam  W:\lab12\syntmp\lab12_top.plg  -osyn  W:\lab12\lab12_top.srm  -prjdir  w:\lab12\  -prjname  lab12_top  -log  W:\lab12\synlog\lab12_top_fpga_mapper.srr 
+rc:0 success:1
+W:\lab12\lab12_top.edi|o|1523454241|252822
+W:\lab12\synwork\lab12_top_compiler.srs|i|1523454239|10115
+W:\lab12\syntmp\lab12_top.plg|o|1523454241|0
+W:\lab12\lab12_top.srm|o|1523454241|89226
+W:\lab12\synlog\lab12_top_fpga_mapper.srr|o|1523454241|1931
+C:\ispLEVER_Classic1_7\synpbase\bin64\m_cpld.exe|i|1363708044|7491584
+C:\ispLEVER_Classic1_7\synpbase\bin\m_cpld.exe|i|1363708014|6638080

@@ -1,0 +1,1276 @@
+Section Type   Array Num   Name                     Real Name          Base     Number     Increment
+// -------------------------------------------------------------------------------------------------
+      Port          1      DIP[7:0]                      DIP                  7          8            -1
+      Port          2      o_TOPRED[7:0]                 o_TOPRED                  7          8            -1
+      Port          3      o_MIDRED[7:0]                 o_MIDRED                  7          8            -1
+      Port          4      o_BOTRED[7:0]                 o_BOTRED                  7          8            -1
+      Port          5      o_DIS1[6:0]                   o_DIS1                  6          7            -1
+      Port          6      o_DIS2[6:0]                   o_DIS2                  6          7            -1
+      Port          7      o_DIS3[6:0]                   o_DIS3                  6          7            -1
+      Port          8      o_DIS4[6:0]                   o_DIS4                  6          7            -1
+      Port          9      o_JUMBO[3:0]                  o_JUMBO                  3          4            -1
+      Port          10      o_LED_YELLOW[1:0]               o_LED_YELLOW                  1          2            -1
+End
+Section Member   Rename                   Array-Notation          Array Number     Index
+// -------------------------------------------------------------------------------------
+        Port      DIP_7_                      DIP[7]                       1            0            
+        Port      DIP_6_                      DIP[6]                       1            1            
+        Port      DIP_5_                      DIP[5]                       1            2            
+        Port      DIP_4_                      DIP[4]                       1            3            
+        Port      DIP_3_                      DIP[3]                       1            4            
+        Port      DIP_2_                      DIP[2]                       1            5            
+        Port      DIP_1_                      DIP[1]                       1            6            
+        Port      DIP_0_                      DIP[0]                       1            7            
+        Port      o_TOPRED_7_                 o_TOPRED[7]                       2            0            
+        Port      o_TOPRED_6_                 o_TOPRED[6]                       2            1            
+        Port      o_TOPRED_5_                 o_TOPRED[5]                       2            2            
+        Port      o_TOPRED_4_                 o_TOPRED[4]                       2            3            
+        Port      o_TOPRED_3_                 o_TOPRED[3]                       2            4            
+        Port      o_TOPRED_2_                 o_TOPRED[2]                       2            5            
+        Port      o_TOPRED_1_                 o_TOPRED[1]                       2            6            
+        Port      o_TOPRED_0_                 o_TOPRED[0]                       2            7            
+        Port      o_MIDRED_7_                 o_MIDRED[7]                       3            0            
+        Port      o_MIDRED_6_                 o_MIDRED[6]                       3            1            
+        Port      o_MIDRED_5_                 o_MIDRED[5]                       3            2            
+        Port      o_MIDRED_4_                 o_MIDRED[4]                       3            3            
+        Port      o_MIDRED_3_                 o_MIDRED[3]                       3            4            
+        Port      o_MIDRED_2_                 o_MIDRED[2]                       3            5            
+        Port      o_MIDRED_1_                 o_MIDRED[1]                       3            6            
+        Port      o_MIDRED_0_                 o_MIDRED[0]                       3            7            
+        Port      o_BOTRED_7_                 o_BOTRED[7]                       4            0            
+        Port      o_BOTRED_6_                 o_BOTRED[6]                       4            1            
+        Port      o_BOTRED_5_                 o_BOTRED[5]                       4            2            
+        Port      o_BOTRED_4_                 o_BOTRED[4]                       4            3            
+        Port      o_BOTRED_3_                 o_BOTRED[3]                       4            4            
+        Port      o_BOTRED_2_                 o_BOTRED[2]                       4            5            
+        Port      o_BOTRED_1_                 o_BOTRED[1]                       4            6            
+        Port      o_BOTRED_0_                 o_BOTRED[0]                       4            7            
+        Port      o_DIS1_6_                   o_DIS1[6]                       5            0            
+        Port      o_DIS1_5_                   o_DIS1[5]                       5            1            
+        Port      o_DIS1_4_                   o_DIS1[4]                       5            2            
+        Port      o_DIS1_3_                   o_DIS1[3]                       5            3            
+        Port      o_DIS1_2_                   o_DIS1[2]                       5            4            
+        Port      o_DIS1_1_                   o_DIS1[1]                       5            5            
+        Port      o_DIS1_0_                   o_DIS1[0]                       5            6            
+        Port      o_DIS2_6_                   o_DIS2[6]                       6            0            
+        Port      o_DIS2_5_                   o_DIS2[5]                       6            1            
+        Port      o_DIS2_4_                   o_DIS2[4]                       6            2            
+        Port      o_DIS2_3_                   o_DIS2[3]                       6            3            
+        Port      o_DIS2_2_                   o_DIS2[2]                       6            4            
+        Port      o_DIS2_1_                   o_DIS2[1]                       6            5            
+        Port      o_DIS2_0_                   o_DIS2[0]                       6            6            
+        Port      o_DIS3_6_                   o_DIS3[6]                       7            0            
+        Port      o_DIS3_5_                   o_DIS3[5]                       7            1            
+        Port      o_DIS3_4_                   o_DIS3[4]                       7            2            
+        Port      o_DIS3_3_                   o_DIS3[3]                       7            3            
+        Port      o_DIS3_2_                   o_DIS3[2]                       7            4            
+        Port      o_DIS3_1_                   o_DIS3[1]                       7            5            
+        Port      o_DIS3_0_                   o_DIS3[0]                       7            6            
+        Port      o_DIS4_6_                   o_DIS4[6]                       8            0            
+        Port      o_DIS4_5_                   o_DIS4[5]                       8            1            
+        Port      o_DIS4_4_                   o_DIS4[4]                       8            2            
+        Port      o_DIS4_3_                   o_DIS4[3]                       8            3            
+        Port      o_DIS4_2_                   o_DIS4[2]                       8            4            
+        Port      o_DIS4_1_                   o_DIS4[1]                       8            5            
+        Port      o_DIS4_0_                   o_DIS4[0]                       8            6            
+        Port      o_JUMBO_3_                  o_JUMBO[3]                       9            0            
+        Port      o_JUMBO_2_                  o_JUMBO[2]                       9            1            
+        Port      o_JUMBO_1_                  o_JUMBO[1]                       9            2            
+        Port      o_JUMBO_0_                  o_JUMBO[0]                       9            3            
+        Port      o_LED_YELLOW_1_               o_LED_YELLOW[1]                      10            0            
+        Port      o_LED_YELLOW_0_               o_LED_YELLOW[0]                      10            1            
+End
+Section Cross Reference File
+Design 'lab12_top' created Wed Apr 11 09:44:00 2018
+   Type              New Name                               Original Name
+// ----------------------------------------------------------------------
+   Inst              step3_c_3                                 step3.c_3
+   Inst        step3_nDIS_4__n                           step3.nDIS_4_.n
+   Inst                step3_c                                   step3.c
+   Inst        step3_nDIS_4__p                           step3.nDIS_4_.p
+   Inst     step3_wDIS1_i_1_1_                        step3.wDIS1_i_1[1]
+   Inst          step3_N_212_i                             step3.N_212_i
+   Inst       step3_wDIS1_i_1_                          step3.wDIS1_i[1]
+   Inst        step3_nDIS_3__r                           step3.nDIS_3_.r
+   Inst   step3_wDIS1_i_a3_1_1_1_                   step3.wDIS1_i_a3_1_1[1]
+   Inst        step3_nDIS_3__m                           step3.nDIS_3_.m
+   Inst   step3_wDIS1_i_a3_1_1_                     step3.wDIS1_i_a3_1[1]
+   Inst        step3_nDIS_3__n                           step3.nDIS_3_.n
+   Inst     step3_wDIS2_i_1_1_                        step3.wDIS2_i_1[1]
+   Inst        step3_nDIS_3__p                           step3.nDIS_3_.p
+   Inst       step3_wDIS2_i_1_                          step3.wDIS2_i[1]
+   Inst          step3_N_211_i                             step3.N_211_i
+   Inst   step3_wDIS2_i_a3_1_1_1_                   step3.wDIS2_i_a3_1_1[1]
+   Inst        step3_nDIS_2__r                           step3.nDIS_2_.r
+   Inst   step3_wDIS2_i_a3_1_1_                     step3.wDIS2_i_a3_1[1]
+   Inst        step3_nDIS_2__m                           step3.nDIS_2_.m
+   Inst        step3_nDIS_2__n                           step3.nDIS_2_.n
+   Inst        step3_nDIS_2__p                           step3.nDIS_2_.p
+   Inst              R_ns_i_8_                                 R_ns_i[8]
+   Inst          step3_N_210_i                             step3.N_210_i
+   Inst          step3_N_285_i                             step3.N_285_i
+   Inst        step3_nDIS_1__r                           step3.nDIS_1_.r
+   Inst          step3_N_283_i                             step3.N_283_i
+   Inst        step3_nDIS_1__m                           step3.nDIS_1_.m
+   Inst          step3_N_284_i                             step3.N_284_i
+   Inst        step3_nDIS_1__n                           step3.nDIS_1_.n
+   Inst          step3_N_333_i                             step3.N_333_i
+   Inst        step3_nDIS_1__p                           step3.nDIS_1_.p
+   Inst          step3_N_331_i                             step3.N_331_i
+   Inst      step3_nDIS_0_3__r                         step3.nDIS_0_3_.r
+   Inst          step3_N_332_i                             step3.N_332_i
+   Inst      step3_nDIS_0_3__m                         step3.nDIS_0_3_.m
+   Inst          step3_un5_c_i                             step3.un5_c_i
+   Inst      step3_nDIS_0_3__n                         step3.nDIS_0_3_.n
+   Inst              step3_c_i                                 step3.c_i
+   Inst      step3_nDIS_0_3__p                         step3.nDIS_0_3_.p
+   Inst      step3_nDIS_0_2__r                         step3.nDIS_0_2_.r
+   Inst          step3_un2_c_i                             step3.un2_c_i
+   Inst      step3_nDIS_0_2__m                         step3.nDIS_0_2_.m
+   Inst          step3_N_343_i                             step3.N_343_i
+   Inst      step3_nDIS_0_2__n                         step3.nDIS_0_2_.n
+   Inst   step3_wDIS2_i_o2_i_4_                     step3.wDIS2_i_o2_i[4]
+   Inst      step3_nDIS_0_2__p                         step3.nDIS_0_2_.p
+   Inst          step3_N_226_i                             step3.N_226_i
+   Inst             step3_Q_0_                                step3.Q[0]
+   Inst   step3_R_ns_i_o2_0_i_0_                    step3.R_ns_i_o2_0_i[0]
+   Inst    step3_R_ns_i_o3_10_                       step3.R_ns_i_o3[10]
+   Inst             step3_Q_1_                                step3.Q[1]
+   Inst   step3_R_ns_i_o2_1_i_0_                    step3.R_ns_i_o2_1_i[0]
+   Inst       step3_R_ns_i_14_                          step3.R_ns_i[14]
+   Inst             step3_Q_2_                                step3.Q[2]
+   Inst          step3_N_286_i                             step3.N_286_i
+   Inst       step3_R_ns_i_13_                          step3.R_ns_i[13]
+   Inst             step3_Q_3_                                step3.Q[3]
+   Inst          step3_N_294_i                             step3.N_294_i
+   Inst     step3_un1_wDIS3_1_                        step3.un1_wDIS3[1]
+   Inst                   R_2_                                      R[2]
+   Inst     step3_un1_wDIS3_0_                        step3.un1_wDIS3[0]
+   Inst                   R_3_                                      R[3]
+   Inst             count_i_1_                                count_i[1]
+   Inst                   R_4_                                      R[4]
+   Inst   wDIS4_1_3_0__R_ns_i_o2_1_4_               wDIS4_1_3_0_.R_ns_i_o2_1[4]
+   Inst                   R_5_                                      R[5]
+   Inst     wDIS4_1_3_0__G_233                        wDIS4_1_3_0_.G_233
+   Inst                   R_6_                                      R[6]
+   Inst          step3_N_334_i                             step3.N_334_i
+   Inst     wDIS4_1_3_0__G_231                        wDIS4_1_3_0_.G_231
+   Inst                   R_7_                                      R[7]
+   Inst        step3_2_N_342_i                           step3_2.N_342_i
+   Inst     wDIS4_1_3_0__G_219                        wDIS4_1_3_0_.G_219
+   Inst                   R_8_                                      R[8]
+   Inst    step3_wDIS2_i_o3_3_                       step3.wDIS2_i_o3[3]
+   Inst                   R_9_                                      R[9]
+   Inst   step3_wDIS2_i_a2_0_3_                     step3.wDIS2_i_a2_0[3]
+   Inst                  R_10_                                     R[10]
+   Inst             total_i_5_                                total_i[5]
+   Inst                  R_11_                                     R[11]
+   Inst    step3_wDIS2_i_a2_3_                       step3.wDIS2_i_a2[3]
+   Inst                  R_12_                                     R[12]
+   Inst    wDIS4_1_3_0__N_42_i                       wDIS4_1_3_0_.N_42_i
+   Inst                R_i_14_                                   R_i[14]
+   Inst                  R_13_                                     R[13]
+   Inst    wDIS4_1_3_0__N_40_i                       wDIS4_1_3_0_.N_40_i
+   Inst          step3_N_214_i                             step3.N_214_i
+   Inst                  R_14_                                     R[14]
+   Inst   wDIS4_1_3_0__un1_wDIS4_i_i_3_             wDIS4_1_3_0_.un1_wDIS4_i_i[3]
+   Inst        step3_nDIS_6__r                           step3.nDIS_6_.r
+   Inst               total_4_                                  total[4]
+   Inst    wDIS4_1_3_0__N_36_i                       wDIS4_1_3_0_.N_36_i
+   Inst        step3_nDIS_6__m                           step3.nDIS_6_.m
+   Inst               total_5_                                  total[5]
+   Inst    wDIS4_1_3_0__N_37_i                       wDIS4_1_3_0_.N_37_i
+   Inst        step3_nDIS_6__n                           step3.nDIS_6_.n
+   Inst               total_6_                                  total[6]
+   Inst    wDIS4_1_3_0__N_38_i                       wDIS4_1_3_0_.N_38_i
+   Inst        step3_nDIS_6__p                           step3.nDIS_6_.p
+   Inst               total_7_                                  total[7]
+   Inst    wDIS4_1_3_0__N_34_i                       wDIS4_1_3_0_.N_34_i
+   Inst          step3_N_222_i                             step3.N_222_i
+   Inst                   R_0_                                      R[0]
+   Inst    wDIS4_1_3_0__N_35_i                       wDIS4_1_3_0_.N_35_i
+   Inst   wDIS4_1_3_0__un1_wDIS2_4__r               wDIS4_1_3_0_.un1_wDIS2_4_.r
+   Inst                   R_1_                                      R[1]
+   Inst    wDIS4_1_3_0__N_54_i                       wDIS4_1_3_0_.N_54_i
+   Inst   wDIS4_1_3_0__un1_wDIS2_4__m               wDIS4_1_3_0_.un1_wDIS2_4_.m
+   Inst               total_0_                                  total[0]
+   Inst   wDIS4_1_3_0__un1_wDIS4_i_i_1_             wDIS4_1_3_0_.un1_wDIS4_i_i[1]
+   Inst   wDIS4_1_3_0__un1_wDIS2_4__n               wDIS4_1_3_0_.un1_wDIS2_4_.n
+   Inst               total_1_                                  total[1]
+   Inst    wDIS4_1_3_0__N_32_i                       wDIS4_1_3_0_.N_32_i
+   Inst   wDIS4_1_3_0__un1_wDIS2_4__p               wDIS4_1_3_0_.un1_wDIS2_4_.p
+   Inst               total_2_                                  total[2]
+   Inst    wDIS4_1_3_0__N_33_i                       wDIS4_1_3_0_.N_33_i
+   Inst   wDIS4_1_3_0__un1_wDIS2_3__r               wDIS4_1_3_0_.un1_wDIS2_3_.r
+   Inst               total_3_                                  total[3]
+   Inst   wDIS4_1_3_0__un1_wDIS4_i_i_0_             wDIS4_1_3_0_.un1_wDIS4_i_i[0]
+   Inst   wDIS4_1_3_0__un1_wDIS2_3__m               wDIS4_1_3_0_.un1_wDIS2_3_.m
+   Inst               rDIS4_6_                                  rDIS4[6]
+   Inst   step3_wDIS2_i_o2_i_1_                     step3.wDIS2_i_o2_i[1]
+   Inst   wDIS4_1_3_0__un1_wDIS2_3__n               wDIS4_1_3_0_.un1_wDIS2_3_.n
+   Inst               count_0_                                  count[0]
+   Inst          step3_N_287_i                             step3.N_287_i
+   Inst   wDIS4_1_3_0__un1_wDIS2_3__p               wDIS4_1_3_0_.un1_wDIS2_3_.p
+   Inst               count_1_                                  count[1]
+   Inst   wDIS4_1_3_0__un1_wDIS4_i_i_5_             wDIS4_1_3_0_.un1_wDIS4_i_i[5]
+   Inst   wDIS4_1_3_0__un1_wDIS2_2__r               wDIS4_1_3_0_.un1_wDIS2_2_.r
+   Inst               count_2_                                  count[2]
+   Inst    wDIS4_1_3_0__N_45_i                       wDIS4_1_3_0_.N_45_i
+   Inst   wDIS4_1_3_0__un1_wDIS2_2__m               wDIS4_1_3_0_.un1_wDIS2_2_.m
+   Inst               count_3_                                  count[3]
+   Inst    wDIS4_1_3_0__N_39_i                       wDIS4_1_3_0_.N_39_i
+   Inst   wDIS4_1_3_0__un1_wDIS2_2__n               wDIS4_1_3_0_.un1_wDIS2_2_.n
+   Inst               rDIS1_0_                                  rDIS1[0]
+   Inst   wDIS4_1_3_0__un1_wDIS4_i_i_6_             wDIS4_1_3_0_.un1_wDIS4_i_i[6]
+   Inst   wDIS4_1_3_0__un1_wDIS2_2__p               wDIS4_1_3_0_.un1_wDIS2_2_.p
+   Inst               rDIS1_1_                                  rDIS1[1]
+   Inst    wDIS4_1_3_0__N_55_i                       wDIS4_1_3_0_.N_55_i
+   Inst   wDIS4_1_3_0__un1_wDIS1_5__r               wDIS4_1_3_0_.un1_wDIS1_5_.r
+   Inst               rDIS1_2_                                  rDIS1[2]
+   Inst    wDIS4_1_3_0__N_46_i                       wDIS4_1_3_0_.N_46_i
+   Inst   wDIS4_1_3_0__un1_wDIS1_5__m               wDIS4_1_3_0_.un1_wDIS1_5_.m
+   Inst               rDIS1_3_                                  rDIS1[3]
+   Inst   wDIS4_1_3_0__G_232_0_i                    wDIS4_1_3_0_.G_232_0_i
+   Inst   wDIS4_1_3_0__un1_wDIS1_5__n               wDIS4_1_3_0_.un1_wDIS1_5_.n
+   Inst               rDIS1_4_                                  rDIS1[4]
+   Inst    wDIS4_1_3_0__N_48_i                       wDIS4_1_3_0_.N_48_i
+   Inst   wDIS4_1_3_0__un1_wDIS1_5__p               wDIS4_1_3_0_.un1_wDIS1_5_.p
+   Inst               rDIS1_5_                                  rDIS1[5]
+   Inst    wDIS4_1_3_0__N_47_i                       wDIS4_1_3_0_.N_47_i
+   Inst   wDIS4_1_3_0__un1_wDIS1_3__r               wDIS4_1_3_0_.un1_wDIS1_3_.r
+   Inst               rDIS1_6_                                  rDIS1[6]
+   Inst   wDIS4_1_3_0__count_3_i_i_0_               wDIS4_1_3_0_.count_3_i_i[0]
+   Inst   wDIS4_1_3_0__un1_wDIS1_3__m               wDIS4_1_3_0_.un1_wDIS1_3_.m
+   Inst               rDIS4_0_                                  rDIS4[0]
+   Inst    wDIS4_1_3_0__N_50_i                       wDIS4_1_3_0_.N_50_i
+   Inst   wDIS4_1_3_0__un1_wDIS1_3__n               wDIS4_1_3_0_.un1_wDIS1_3_.n
+   Inst               rDIS4_1_                                  rDIS4[1]
+   Inst    wDIS4_1_3_0__N_31_i                       wDIS4_1_3_0_.N_31_i
+   Inst   wDIS4_1_3_0__un1_wDIS1_3__p               wDIS4_1_3_0_.un1_wDIS1_3_.p
+   Inst               rDIS4_2_                                  rDIS4[2]
+   Inst   wDIS4_1_3_0__G_234_0_i                    wDIS4_1_3_0_.G_234_0_i
+   Inst   wDIS4_1_3_0__un1_wDIS1_2__r               wDIS4_1_3_0_.un1_wDIS1_2_.r
+   Inst               rDIS4_3_                                  rDIS4[3]
+   Inst   wDIS4_1_3_0__un1_wDIS4_i_o2_i_1_          wDIS4_1_3_0_.un1_wDIS4_i_o2_i[1]
+   Inst   wDIS4_1_3_0__un1_wDIS1_2__m               wDIS4_1_3_0_.un1_wDIS1_2_.m
+   Inst               rDIS4_4_                                  rDIS4[4]
+   Inst    wDIS4_1_3_0__N_41_i                       wDIS4_1_3_0_.N_41_i
+   Inst   wDIS4_1_3_0__un1_wDIS1_2__n               wDIS4_1_3_0_.un1_wDIS1_2_.n
+   Inst               rDIS4_5_                                  rDIS4[5]
+   Inst     step3_2_un42_C_1_i                        step3_2.un42_C_1_i
+   Inst   wDIS4_1_3_0__un1_wDIS1_2__p               wDIS4_1_3_0_.un1_wDIS1_2_.p
+   Inst               rDIS2_4_                                  rDIS2[4]
+   Inst         step3_2_G_i_1_                            step3_2.G_i[1]
+   Inst       un2_total_i_i_2_                          un2_total_i_i[2]
+   Inst               rDIS2_5_                                  rDIS2[5]
+   Inst       step3_2_un42_C_i                          step3_2.un42_C_i
+   Inst     step3_total_6_2__r                        step3.total_6_2_.r
+   Inst               rDIS2_6_                                  rDIS2[6]
+   Inst         step3_2_C_i_0_                            step3_2.C_i[0]
+   Inst     step3_total_6_2__m                        step3.total_6_2_.m
+   Inst               rDIS3_0_                                  rDIS3[0]
+   Inst        step3_2_N_369_i                           step3_2.N_369_i
+   Inst     step3_total_6_2__n                        step3.total_6_2_.n
+   Inst               rDIS3_1_                                  rDIS3[1]
+   Inst     step3_total_6_2__p                        step3.total_6_2_.p
+   Inst               rDIS3_2_                                  rDIS3[2]
+   Inst   step3_un1_wDIS2_0__r                      step3.un1_wDIS2_0_.r
+   Inst               rDIS3_3_                                  rDIS3[3]
+   Inst          step3_N_295_i                             step3.N_295_i
+   Inst   step3_un1_wDIS2_0__m                      step3.un1_wDIS2_0_.m
+   Inst               rDIS3_4_                                  rDIS3[4]
+   Inst          step3_N_292_i                             step3.N_292_i
+   Inst   step3_un1_wDIS2_0__n                      step3.un1_wDIS2_0_.n
+   Inst               rDIS3_5_                                  rDIS3[5]
+   Inst          step3_N_291_i                             step3.N_291_i
+   Inst   step3_un1_wDIS2_0__p                      step3.un1_wDIS2_0_.p
+   Inst               rDIS3_6_                                  rDIS3[6]
+   Inst         step3_Z_1_i_2_                            step3.Z_1_i[2]
+   Inst   step3_un1_wDIS1_0__r                      step3.un1_wDIS1_0_.r
+   Inst               rDIS2_0_                                  rDIS2[0]
+   Inst         step3_Z_1_i_1_                            step3.Z_1_i[1]
+   Inst   step3_un1_wDIS1_0__m                      step3.un1_wDIS1_0_.m
+   Inst               rDIS2_1_                                  rDIS2[1]
+   Inst   wDIS4_1_3_0__G_219_i                      wDIS4_1_3_0_.G_219_i
+   Inst   step3_un1_wDIS1_0__n                      step3.un1_wDIS1_0_.n
+   Inst               rDIS2_2_                                  rDIS2[2]
+   Inst    wDIS4_1_3_0__N_44_i                       wDIS4_1_3_0_.N_44_i
+   Inst   step3_un1_wDIS1_0__p                      step3.un1_wDIS1_0_.p
+   Inst               rDIS2_3_                                  rDIS2[3]
+   Inst    wDIS4_1_3_0__N_43_i                       wDIS4_1_3_0_.N_43_i
+   Inst     step3_un1_wDIS3_6_                        step3.un1_wDIS3[6]
+   Inst     step3_temp_MR_i_2_                        step3.temp_MR_i[2]
+   Inst     step3_un1_wDIS3_5_                        step3.un1_wDIS3[5]
+   Inst    step3_un5_leftbit_i                       step3.un5_leftbit_i
+   Inst     step3_un1_wDIS3_4_                        step3.un1_wDIS3[4]
+   Inst                 S2_BFC                                    S2.BFC
+   Inst     step3_temp_MR_i_1_                        step3.temp_MR_i[1]
+   Inst     step3_un1_wDIS3_3_                        step3.un1_wDIS3[3]
+   Inst                 S1_BFC                                    S1.BFC
+   Inst     step3_temp_MR_i_0_                        step3.temp_MR_i[0]
+   Inst     step3_un1_wDIS3_2_                        step3.un1_wDIS3[2]
+   Inst                 DIP_0_                                    DIP[0]
+   Inst         step3_2_C_i_3_                            step3_2.C_i[3]
+   Inst   wDIS4_1_3_0__un1_wDIS4_i_a3_6_            wDIS4_1_3_0_.un1_wDIS4_i_a3[6]
+   Inst                 DIP_1_                                    DIP[1]
+   Inst       step3_2_un38_C_i                          step3_2.un38_C_i
+   Inst             rDIS4_i_5_                                rDIS4_i[5]
+   Inst                 DIP_2_                                    DIP[2]
+   Inst       step3_2_un35_C_i                          step3_2.un35_C_i
+   Inst   wDIS4_1_3_0__un1_wDIS4_i_a3_0_5_          wDIS4_1_3_0_.un1_wDIS4_i_a3_0[5]
+   Inst                 DIP_3_                                    DIP[3]
+   Inst         step3_2_G_i_3_                            step3_2.G_i[3]
+   Inst   wDIS4_1_3_0__un1_wDIS4_0_a3_0_4_          wDIS4_1_3_0_.un1_wDIS4_0_a3_0[4]
+   Inst                 DIP_7_                                    DIP[7]
+   Inst         step3_2_C_i_2_                            step3_2.C_i[2]
+   Inst   wDIS4_1_3_0__un1_wDIS4_0_a3_4_            wDIS4_1_3_0_.un1_wDIS4_0_a3[4]
+   Inst       step3_2_un22_C_i                          step3_2.un22_C_i
+   Inst             rDIS4_i_3_                                rDIS4_i[3]
+   Inst       step3_2_un26_C_i                          step3_2.un26_C_i
+   Inst   wDIS4_1_3_0__un1_wDIS4_i_a3_0_3_          wDIS4_1_3_0_.un1_wDIS4_i_a3_0[3]
+   Inst     step3_2_un38_C_1_i                        step3_2.un38_C_1_i
+   Inst   wDIS4_1_3_0__un1_wDIS4_0_a3_1_2_          wDIS4_1_3_0_.un1_wDIS4_0_a3_1[2]
+   Inst         step3_2_G_i_2_                            step3_2.G_i[2]
+   Inst             count_i_2_                                count_i[2]
+   Inst            o_TOPRED_0_                               o_TOPRED[0]
+   Inst     step3_2_un47_C_1_i                        step3_2.un47_C_1_i
+   Inst   wDIS4_1_3_0__un1_wDIS4_0_a3_2_            wDIS4_1_3_0_.un1_wDIS4_0_a3[2]
+   Inst            o_TOPRED_1_                               o_TOPRED[1]
+   Inst         step3_2_C_i_1_                            step3_2.C_i[1]
+   Inst             rDIS4_i_0_                                rDIS4_i[0]
+   Inst            o_TOPRED_2_                               o_TOPRED[2]
+   Inst   step3_wDIS1_i_o2_i_4_                     step3.wDIS1_i_o2_i[4]
+   Inst   wDIS4_1_3_0__un1_wDIS4_i_a3_1_0_          wDIS4_1_3_0_.un1_wDIS4_i_a3_1[0]
+   Inst            o_TOPRED_3_                               o_TOPRED[3]
+   Inst          step3_N_335_i                             step3.N_335_i
+   Inst   wDIS4_1_3_0__un1_wDIS4_i_a3_0_            wDIS4_1_3_0_.un1_wDIS4_i_a3[0]
+   Inst            o_TOPRED_4_                               o_TOPRED[4]
+   Inst        step3_2_N_336_i                           step3_2.N_336_i
+   Inst   wDIS4_1_3_0__nDIS_0_5__r                  wDIS4_1_3_0_.nDIS_0_5_.r
+   Inst            o_TOPRED_5_                               o_TOPRED[5]
+   Inst        step3_2_N_341_i                           step3_2.N_341_i
+   Inst   wDIS4_1_3_0__nDIS_0_5__m                  wDIS4_1_3_0_.nDIS_0_5_.m
+   Inst            o_TOPRED_6_                               o_TOPRED[6]
+   Inst   step3_2_wDIS1_i_o2_i_1_                   step3_2.wDIS1_i_o2_i[1]
+   Inst   wDIS4_1_3_0__nDIS_0_5__n                  wDIS4_1_3_0_.nDIS_0_5_.n
+   Inst            o_TOPRED_7_                               o_TOPRED[7]
+   Inst   wDIS4_1_3_0__R_ns_i_o2_i_4_               wDIS4_1_3_0_.R_ns_i_o2_i[4]
+   Inst   wDIS4_1_3_0__nDIS_0_5__p                  wDIS4_1_3_0_.nDIS_0_5_.p
+   Inst            o_MIDRED_0_                               o_MIDRED[0]
+   Inst        step3_2_G_195_i                           step3_2.G_195_i
+   Inst   wDIS4_1_3_0__un1_wDIS2_5__r               wDIS4_1_3_0_.un1_wDIS2_5_.r
+   Inst            o_MIDRED_1_                               o_MIDRED[1]
+   Inst   step3_un1_temp_TR_4_i                     step3.un1_temp_TR_4_i
+   Inst   wDIS4_1_3_0__un1_wDIS2_5__m               wDIS4_1_3_0_.un1_wDIS2_5_.m
+   Inst            o_MIDRED_2_                               o_MIDRED[2]
+   Inst   step3_un1_temp_TR_3_i                     step3.un1_temp_TR_3_i
+   Inst   wDIS4_1_3_0__un1_wDIS2_5__n               wDIS4_1_3_0_.un1_wDIS2_5_.n
+   Inst            o_MIDRED_3_                               o_MIDRED[3]
+   Inst            step3_XGY_i                               step3.XGY_i
+   Inst   wDIS4_1_3_0__un1_wDIS2_5__p               wDIS4_1_3_0_.un1_wDIS2_5_.p
+   Inst            o_MIDRED_4_                               o_MIDRED[4]
+   Inst         un1_wDIS1_i_4_                            un1_wDIS1_i[4]
+   Inst   wDIS4_1_3_0__count_3_i_0_                 wDIS4_1_3_0_.count_3_i[0]
+   Inst            o_MIDRED_5_                               o_MIDRED[5]
+   Inst   wDIS4_1_3_0__un1_wDIS1_i_5_               wDIS4_1_3_0_.un1_wDIS1_i[5]
+   Inst   wDIS4_1_3_0__G_230_i                      wDIS4_1_3_0_.G_230_i
+   Inst            o_MIDRED_6_                               o_MIDRED[6]
+   Inst         un1_wDIS1_i_6_                            un1_wDIS1_i[6]
+   Inst   wDIS4_1_3_0__G_232_0                      wDIS4_1_3_0_.G_232_0
+   Inst            o_MIDRED_7_                               o_MIDRED[7]
+   Inst      step3_MIDRED_i_0_                         step3.MIDRED_i[0]
+   Inst   wDIS4_1_3_0__un1_wDIS4_i_6_               wDIS4_1_3_0_.un1_wDIS4_i[6]
+   Inst            o_BOTRED_0_                               o_BOTRED[0]
+   Inst      step3_MIDRED_i_1_                         step3.MIDRED_i[1]
+   Inst   wDIS4_1_3_0__un1_wDIS4_i_5_               wDIS4_1_3_0_.un1_wDIS4_i[5]
+   Inst            o_BOTRED_1_                               o_BOTRED[1]
+   Inst      step3_MIDRED_i_2_                         step3.MIDRED_i[2]
+   Inst    wDIS4_1_3_0__N_53_i                       wDIS4_1_3_0_.N_53_i
+   Inst            o_BOTRED_2_                               o_BOTRED[2]
+   Inst      step3_MIDRED_i_3_                         step3.MIDRED_i[3]
+   Inst   wDIS4_1_3_0__G_232_0_a2                   wDIS4_1_3_0_.G_232_0_a2
+   Inst            o_BOTRED_3_                               o_BOTRED[3]
+   Inst      step3_TOPRED_i_0_                         step3.TOPRED_i[0]
+   Inst   wDIS4_1_3_0__un1_wDIS4_i_a2_1_            wDIS4_1_3_0_.un1_wDIS4_i_a2[1]
+   Inst            o_BOTRED_4_                               o_BOTRED[4]
+   Inst      step3_TOPRED_i_1_                         step3.TOPRED_i[1]
+   Inst   wDIS4_1_3_0__N_404_i                      wDIS4_1_3_0_.N_404_i
+   Inst            o_BOTRED_5_                               o_BOTRED[5]
+   Inst      step3_TOPRED_i_2_                         step3.TOPRED_i[2]
+   Inst   wDIS4_1_3_0__G_234_0_a3_0                 wDIS4_1_3_0_.G_234_0_a3_0
+   Inst            o_BOTRED_6_                               o_BOTRED[6]
+   Inst      step3_TOPRED_i_6_                         step3.TOPRED_i[6]
+   Inst   wDIS4_1_3_0__count_3_i_a3_0_0_            wDIS4_1_3_0_.count_3_i_a3_0[0]
+   Inst            o_BOTRED_7_                               o_BOTRED[7]
+   Inst      step3_TOPRED_i_4_                         step3.TOPRED_i[4]
+   Inst             count_i_0_                                count_i[0]
+   Inst              o_DIS1_0_                                 o_DIS1[0]
+   Inst      step3_TOPRED_i_7_                         step3.TOPRED_i[7]
+   Inst   wDIS4_1_3_0__count_3_i_a3_0_              wDIS4_1_3_0_.count_3_i_a3[0]
+   Inst              o_DIS1_1_                                 o_DIS1[1]
+   Inst   step3_un1_wDIS3_i_3_                      step3.un1_wDIS3_i[3]
+   Inst   wDIS4_1_3_0__G_232_0_a3                   wDIS4_1_3_0_.G_232_0_a3
+   Inst              o_DIS1_2_                                 o_DIS1[2]
+   Inst   step3_un1_wDIS3_i_4_                      step3.un1_wDIS3_i[4]
+   Inst             rDIS4_i_6_                                rDIS4_i[6]
+   Inst              o_DIS1_3_                                 o_DIS1[3]
+   Inst   step3_un1_wDIS3_i_5_                      step3.un1_wDIS3_i[5]
+   Inst    step3_wDIS2_i_a3_4_                       step3.wDIS2_i_a3[4]
+   Inst              o_DIS1_4_                                 o_DIS1[4]
+   Inst   step3_un1_wDIS3_i_6_                      step3.un1_wDIS3_i[6]
+   Inst    step3_wDIS2_i_a2_2_                       step3.wDIS2_i_a2[2]
+   Inst              o_DIS1_5_                                 o_DIS1[5]
+   Inst   step3_un1_wDIS2_i_0_                      step3.un1_wDIS2_i[0]
+   Inst             total_i_7_                                total_i[7]
+   Inst              o_DIS1_6_                                 o_DIS1[6]
+   Inst         un1_wDIS2_i_1_                            un1_wDIS2_i[1]
+   Inst   step3_wDIS2_i_a2_0_0_                     step3.wDIS2_i_a2_0[0]
+   Inst              o_DIS2_0_                                 o_DIS2[0]
+   Inst   wDIS4_1_3_0__un1_wDIS2_i_2_               wDIS4_1_3_0_.un1_wDIS2_i[2]
+   Inst    step3_wDIS2_i_o3_0_                       step3.wDIS2_i_o3[0]
+   Inst              o_DIS2_1_                                 o_DIS2[1]
+   Inst   wDIS4_1_3_0__un1_wDIS2_i_3_               wDIS4_1_3_0_.un1_wDIS2_i[3]
+   Inst             total_i_6_                                total_i[6]
+   Inst              o_DIS2_2_                                 o_DIS2[2]
+   Inst   wDIS4_1_3_0__un1_wDIS2_i_4_               wDIS4_1_3_0_.un1_wDIS2_i[4]
+   Inst    step3_wDIS2_i_o2_1_                       step3.wDIS2_i_o2[1]
+   Inst              o_DIS2_3_                                 o_DIS2[3]
+   Inst   wDIS4_1_3_0__un1_wDIS2_i_5_               wDIS4_1_3_0_.un1_wDIS2_i[5]
+   Inst    step3_wDIS1_i_a3_2_                       step3.wDIS1_i_a3[2]
+   Inst              o_DIS2_4_                                 o_DIS2[4]
+   Inst         un1_wDIS2_i_6_                            un1_wDIS2_i[6]
+   Inst    step3_wDIS1_i_a3_4_                       step3.wDIS1_i_a3[4]
+   Inst              o_DIS2_5_                                 o_DIS2[5]
+   Inst   step3_un1_wDIS1_i_0_                      step3.un1_wDIS1_i[0]
+   Inst             total_i_3_                                total_i[3]
+   Inst              o_DIS2_6_                                 o_DIS2[6]
+   Inst         un1_wDIS1_i_1_                            un1_wDIS1_i[1]
+   Inst   step3_wDIS1_i_a2_0_0_                     step3.wDIS1_i_a2_0[0]
+   Inst              o_DIS3_0_                                 o_DIS3[0]
+   Inst   wDIS4_1_3_0__un1_wDIS1_i_2_               wDIS4_1_3_0_.un1_wDIS1_i[2]
+   Inst             total_i_4_                                total_i[4]
+   Inst              o_DIS3_1_                                 o_DIS3[1]
+   Inst   wDIS4_1_3_0__un1_wDIS1_i_3_               wDIS4_1_3_0_.un1_wDIS1_i[3]
+   Inst   wDIS4_1_3_0__un1_wDIS4_i_x2_3_            wDIS4_1_3_0_.un1_wDIS4_i_x2[3]
+   Inst              o_DIS3_2_                                 o_DIS3[2]
+   Inst   wDIS4_1_3_0__un1_wDIS4_i_a3_0_1_          wDIS4_1_3_0_.un1_wDIS4_i_a3_0[1]
+   Inst   wDIS4_1_3_0__un1_wDIS4_i_o2_1_            wDIS4_1_3_0_.un1_wDIS4_i_o2[1]
+   Inst              o_DIS3_3_                                 o_DIS3[3]
+   Inst             total_i_0_                                total_i[0]
+   Inst   wDIS4_1_3_0__G_234_0                      wDIS4_1_3_0_.G_234_0
+   Inst              o_DIS3_4_                                 o_DIS3[4]
+   Inst             total_i_2_                                total_i[2]
+   Inst          wDIS1_i_a3_5_                             wDIS1_i_a3[5]
+   Inst              o_DIS3_5_                                 o_DIS3[5]
+   Inst   step3_2_wDIS1_i_o2_1_                     step3_2.wDIS1_i_o2[1]
+   Inst        wDIS1_i_a3_0_5_                           wDIS1_i_a3_0[5]
+   Inst              o_DIS3_6_                                 o_DIS3[6]
+   Inst   step3_2_wDIS1_i_o3_0_                     step3_2.wDIS1_i_o3[0]
+   Inst          wDIS1_i_a2_3_                             wDIS1_i_a2[3]
+   Inst              o_DIS4_0_                                 o_DIS4[0]
+   Inst     step3_2_wDIS1_i_4_                        step3_2.wDIS1_i[4]
+   Inst        wDIS1_i_a2_0_3_                           wDIS1_i_a2_0[3]
+   Inst              o_DIS4_1_                                 o_DIS4[1]
+   Inst             total_i_1_                                total_i[1]
+   Inst             wDIS1_i_3_                                wDIS1_i[3]
+   Inst              o_DIS4_2_                                 o_DIS4[2]
+   Inst   step3_2_wDIS1_i_a2_2_                     step3_2.wDIS1_i_a2[2]
+   Inst             wDIS1_i_6_                                wDIS1_i[6]
+   Inst              o_DIS4_3_                                 o_DIS4[3]
+   Inst    step3_wDIS1_i_o2_4_                       step3.wDIS1_i_o2[4]
+   Inst          wDIS1_i_o3_3_                             wDIS1_i_o3[3]
+   Inst              o_DIS4_4_                                 o_DIS4[4]
+   Inst   step3_JUMBO_G_2_sqmuxa_i                  step3.JUMBO_G_2_sqmuxa_i
+   Inst            nDIS_0_1__r                               nDIS_0_1_.r
+   Inst              o_DIS4_5_                                 o_DIS4[5]
+   Inst   step3_JUMBO_G_0_sqmuxa_i                  step3.JUMBO_G_0_sqmuxa_i
+   Inst            nDIS_0_1__m                               nDIS_0_1_.m
+   Inst              o_DIS4_6_                                 o_DIS4[6]
+   Inst      step3_TOPRED_i_5_                         step3.TOPRED_i[5]
+   Inst            nDIS_0_1__n                               nDIS_0_1_.n
+   Inst             o_JUMBO_0_                                o_JUMBO[0]
+   Inst   step3_un1_wDIS3_i_0_                      step3.un1_wDIS3_i[0]
+   Inst            nDIS_0_1__p                               nDIS_0_1_.p
+   Inst             o_JUMBO_1_                                o_JUMBO[1]
+   Inst   step3_un1_wDIS3_i_1_                      step3.un1_wDIS3_i[1]
+   Inst            nDIS_0_4__r                               nDIS_0_4_.r
+   Inst             o_JUMBO_2_                                o_JUMBO[2]
+   Inst   step3_un1_wDIS3_i_2_                      step3.un1_wDIS3_i[2]
+   Inst            nDIS_0_4__m                               nDIS_0_4_.m
+   Inst             o_JUMBO_3_                                o_JUMBO[3]
+   Inst        step3_TOPRED_4_                           step3.TOPRED[4]
+   Inst            nDIS_0_4__n                               nDIS_0_4_.n
+   Inst        o_LED_YELLOW_0_                           o_LED_YELLOW[0]
+   Inst        step3_TOPRED_7_                           step3.TOPRED[7]
+   Inst            nDIS_0_4__p                               nDIS_0_4_.p
+   Inst        o_LED_YELLOW_1_                           o_LED_YELLOW[1]
+   Inst   step3_JUMBO_G_1_sqmuxa_1                  step3.JUMBO_G_1_sqmuxa_1
+   Inst            nDIS_0_6__r                               nDIS_0_6_.r
+   Inst         step3_2_S_1_1_                            step3_2.S_1[1]
+   Inst   step3_2_temp_TR_i_5_                      step3_2.temp_TR_i[5]
+   Inst            nDIS_0_6__m                               nDIS_0_6_.m
+   Inst       step3_2_S_1_1_2_                          step3_2.S_1_1[2]
+   Inst   step3_2_temp_TR_i_4_                      step3_2.temp_TR_i[4]
+   Inst            nDIS_0_6__n                               nDIS_0_6_.n
+   Inst         step3_2_S_1_2_                            step3_2.S_1[2]
+   Inst          step3_2_G_191                             step3_2.G_191
+   Inst            nDIS_0_6__p                               nDIS_0_6_.p
+   Inst       step3_2_S_1_1_3_                          step3_2.S_1_1[3]
+   Inst          step3_2_G_193                             step3_2.G_193
+   Inst             R_ns_a3_8_                                R_ns_a3[8]
+   Inst         step3_2_S_1_3_                            step3_2.S_1[3]
+   Inst          step3_2_G_194                             step3_2.G_194
+   Inst     step3_R_ns_i_a2_0_                        step3.R_ns_i_a2[0]
+   Inst          step3_G_206_1                             step3.G_206_1
+   Inst          step3_2_G_195                             step3_2.G_195
+   Inst   step3_R_ns_i_o2_1_0_                      step3.R_ns_i_o2_1[0]
+   Inst            step3_G_206                               step3.G_206
+   Inst         step3_DIP_i_7_                            step3.DIP_i[7]
+   Inst   step3_R_ns_i_o2_0_0_                      step3.R_ns_i_o2_0[0]
+   Inst     step3_G_201_0_a2_1                        step3.G_201_0_a2_1
+   Inst       step3_G_192_i_o2                          step3.G_192_i_o2
+   Inst    step3_wDIS2_i_a3_2_                       step3.wDIS2_i_a3[2]
+   Inst       step3_G_201_0_a2                          step3.G_201_0_a2
+   Inst          step3_2_G_190                             step3_2.G_190
+   Inst            step3_G_244                               step3.G_244
+   Inst    step3_un1_leftbit_1                       step3.un1_leftbit_1
+   Inst             count_i_3_                                count_i[3]
+   Inst            step3_G_246                               step3.G_246
+   Inst      step3_un1_leftbit                         step3.un1_leftbit
+   Inst   wDIS4_1_3_0__R_ns_i_o2_4_                 wDIS4_1_3_0_.R_ns_i_o2[4]
+   Inst         un1_wDIS1_1__r                            un1_wDIS1_1_.r
+   Inst             rDIS4_i_1_                                rDIS4_i[1]
+   Inst         un1_wDIS1_1__m                            un1_wDIS1_1_.m
+   Inst           step3_2_P_0_                              step3_2.P[0]
+   Inst         un1_wDIS1_1__n                            un1_wDIS1_1_.n
+   Inst    step3_un1_temp_TR_3                       step3.un1_temp_TR_3
+   Inst         un1_wDIS1_1__p                            un1_wDIS1_1_.p
+   Inst              step3_XGY                                 step3.XGY
+   Inst         un1_wDIS1_4__r                            un1_wDIS1_4_.r
+   Inst   step3_JUMBO_G_0_sqmuxa                    step3.JUMBO_G_0_sqmuxa
+   Inst         un1_wDIS1_4__m                            un1_wDIS1_4_.m
+   Inst        step3_MIDRED_3_                           step3.MIDRED[3]
+   Inst         un1_wDIS1_4__n                            un1_wDIS1_4_.n
+   Inst        step3_MIDRED_2_                           step3.MIDRED[2]
+   Inst         un1_wDIS1_4__p                            un1_wDIS1_4_.p
+   Inst        step3_MIDRED_1_                           step3.MIDRED[1]
+   Inst         un1_wDIS1_6__r                            un1_wDIS1_6_.r
+   Inst       step3_2_S_1_1_1_                          step3_2.S_1_1[1]
+   Inst        step3_MIDRED_0_                           step3.MIDRED[0]
+   Inst         un1_wDIS1_6__m                            un1_wDIS1_6_.m
+   Inst   wDIS4_1_3_0__un1_wDIS4_0_2_               wDIS4_1_3_0_.un1_wDIS4_0[2]
+   Inst        step3_TOPRED_0_                           step3.TOPRED[0]
+   Inst         un1_wDIS1_6__n                            un1_wDIS1_6_.n
+   Inst   wDIS4_1_3_0__un1_wDIS4_i_1_1_             wDIS4_1_3_0_.un1_wDIS4_i_1[1]
+   Inst          step3_2_N_6_i                             step3_2.N_6_i
+   Inst         un1_wDIS1_6__p                            un1_wDIS1_6_.p
+   Inst   wDIS4_1_3_0__un1_wDIS4_i_1_               wDIS4_1_3_0_.un1_wDIS4_i[1]
+   Inst        step3_TOPRED_1_                           step3.TOPRED[1]
+   Inst         un1_wDIS2_1__r                            un1_wDIS2_1_.r
+   Inst   wDIS4_1_3_0__un1_wDIS4_i_1_0_             wDIS4_1_3_0_.un1_wDIS4_i_1[0]
+   Inst          step3_2_N_5_i                             step3_2.N_5_i
+   Inst         un1_wDIS2_1__m                            un1_wDIS2_1_.m
+   Inst   wDIS4_1_3_0__un1_wDIS4_i_0_               wDIS4_1_3_0_.un1_wDIS4_i[0]
+   Inst        step3_TOPRED_2_                           step3.TOPRED[2]
+   Inst         un1_wDIS2_1__n                            un1_wDIS2_1_.n
+   Inst   wDIS4_1_3_0__un1_wDIS4_i_a3_1_5_          wDIS4_1_3_0_.un1_wDIS4_i_a3_1[5]
+   Inst   step3_2_temp_TR_i_3_i_6_                  step3_2.temp_TR_i_3_i[6]
+   Inst         un1_wDIS2_1__p                            un1_wDIS2_1_.p
+   Inst   wDIS4_1_3_0__un1_wDIS4_i_a3_5_            wDIS4_1_3_0_.un1_wDIS4_i_a3[5]
+   Inst        step3_TOPRED_3_                           step3.TOPRED[3]
+   Inst         un1_wDIS2_6__r                            un1_wDIS2_6_.r
+   Inst   wDIS4_1_3_0__un1_wDIS4_i_a3_1_3_          wDIS4_1_3_0_.un1_wDIS4_i_a3_1[3]
+   Inst   step3_2_temp_TR_i_0_                      step3_2.temp_TR_i[0]
+   Inst         un1_wDIS2_6__m                            un1_wDIS2_6_.m
+   Inst   wDIS4_1_3_0__un1_wDIS4_i_a3_3_            wDIS4_1_3_0_.un1_wDIS4_i_a3[3]
+   Inst         step3_2_un11_C                            step3_2.un11_C
+   Inst         un1_wDIS2_6__n                            un1_wDIS2_6_.n
+   Inst   wDIS4_1_3_0__un1_wDIS4_0_a3_0_1_2_        wDIS4_1_3_0_.un1_wDIS4_0_a3_0_1[2]
+   Inst         step3_2_un38_C                            step3_2.un38_C
+   Inst         un1_wDIS2_6__p                            un1_wDIS2_6_.p
+   Inst   wDIS4_1_3_0__un1_wDIS4_0_a3_0_2_          wDIS4_1_3_0_.un1_wDIS4_0_a3_0[2]
+   Inst       step3_2_P_i_i_3_                          step3_2.P_i_i[3]
+   Inst              R_ns_i_6_                                 R_ns_i[6]
+   Inst   wDIS4_1_3_0__un1_wDIS4_i_a3_1_1_          wDIS4_1_3_0_.un1_wDIS4_i_a3_1[1]
+   Inst       step3_2_un42_C_2                          step3_2.un42_C_2
+   Inst                R_ns_8_                                   R_ns[8]
+   Inst   wDIS4_1_3_0__un1_wDIS4_i_a3_1_            wDIS4_1_3_0_.un1_wDIS4_i_a3[1]
+   Inst         step3_2_un42_C                            step3_2.un42_C
+   Inst           R_ns_i_o3_4_                              R_ns_i_o3[4]
+   Inst   wDIS4_1_3_0__un1_wDIS4_i_a3_0_1_0_        wDIS4_1_3_0_.un1_wDIS4_i_a3_0_1[0]
+   Inst         step3_2_un47_C                            step3_2.un47_C
+   Inst          wDIS2_i_a3_5_                             wDIS2_i_a3[5]
+   Inst   wDIS4_1_3_0__un1_wDIS4_i_a3_0_0_          wDIS4_1_3_0_.un1_wDIS4_i_a3_0[0]
+   Inst         step3_2_un26_C                            step3_2.un26_C
+   Inst        wDIS2_i_a3_0_5_                           wDIS2_i_a3_0[5]
+   Inst    step3_un5_leftbit_1                       step3.un5_leftbit_1
+   Inst       step3_2_P_i_i_1_                          step3_2.P_i_i[1]
+   Inst             wDIS2_i_3_                                wDIS2_i[3]
+   Inst      step3_un5_leftbit                         step3.un5_leftbit
+   Inst       step3_2_P_i_i_2_                          step3_2.P_i_i[2]
+   Inst             wDIS2_i_4_                                wDIS2_i[4]
+   Inst   step3_un1_temp_TR_4_1                     step3.un1_temp_TR_4_1
+   Inst         step3_2_un22_C                            step3_2.un22_C
+   Inst             wDIS2_i_6_                                wDIS2_i[6]
+   Inst    step3_un1_temp_TR_4                       step3.un1_temp_TR_4
+   Inst           step3_2_P_3_                              step3_2.P[3]
+   Inst   step3_JUMBO_G_2_sqmuxa_1                  step3.JUMBO_G_2_sqmuxa_1
+   Inst             step3_2_VF                                step3_2.VF
+   Inst            step3_un2_c                               step3.un2_c
+   Inst   step3_JUMBO_G_2_sqmuxa                    step3.JUMBO_G_2_sqmuxa
+   Inst           step3_2_P_2_                              step3_2.P[2]
+   Inst            step3_un5_c                               step3.un5_c
+   Inst   step3_2_wDIS1_i_a2_1_0_                   step3_2.wDIS1_i_a2_1[0]
+   Inst           step3_2_P_1_                              step3_2.P[1]
+   Inst     step3_total_6_3__r                        step3.total_6_3_.r
+   Inst   step3_2_wDIS1_i_a2_0_                     step3_2.wDIS1_i_a2[0]
+   Inst       step3_R_ns_a3_1_                          step3.R_ns_a3[1]
+   Inst     step3_total_6_3__m                        step3.total_6_3_.m
+   Inst   step3_2_wDIS1_i_a3_0_1_4_                 step3_2.wDIS1_i_a3_0_1[4]
+   Inst                 R_i_9_                                    R_i[9]
+   Inst     step3_total_6_3__n                        step3.total_6_3_.n
+   Inst   step3_2_wDIS1_i_a3_0_4_                   step3_2.wDIS1_i_a3_0[4]
+   Inst                 R_i_8_                                    R_i[8]
+   Inst     step3_total_6_3__p                        step3.total_6_3_.p
+   Inst   wDIS4_1_3_0__un1_wDIS4_0_1_4_             wDIS4_1_3_0_.un1_wDIS4_0_1[4]
+   Inst     step3_total_6_i_1_                        step3.total_6_i[1]
+   Inst     step3_total_6_5__r                        step3.total_6_5_.r
+   Inst   wDIS4_1_3_0__un1_wDIS4_0_4_               wDIS4_1_3_0_.un1_wDIS4_0[4]
+   Inst     step3_total_6_5__m                        step3.total_6_5_.m
+   Inst   wDIS4_1_3_0__un1_wDIS4_i_1_3_             wDIS4_1_3_0_.un1_wDIS4_i_1[3]
+   Inst       step3_2_DIP_i_1_                          step3_2.DIP_i[1]
+   Inst     step3_total_6_5__n                        step3.total_6_5_.n
+   Inst   wDIS4_1_3_0__un1_wDIS4_i_3_               wDIS4_1_3_0_.un1_wDIS4_i[3]
+   Inst           step3_2_G_1_                              step3_2.G[1]
+   Inst     step3_total_6_5__p                        step3.total_6_5_.p
+   Inst   wDIS4_1_3_0__un1_wDIS4_0_1_2_             wDIS4_1_3_0_.un1_wDIS4_0_1[2]
+   Inst       step3_2_DIP_i_2_                          step3_2.DIP_i[2]
+   Inst     step3_total_6_6__r                        step3.total_6_6_.r
+   Inst   step3_nDIS_cnst_a3_1_0_                   step3.nDIS_cnst_a3_1[0]
+   Inst           step3_2_G_2_                              step3_2.G[2]
+   Inst     step3_total_6_6__m                        step3.total_6_6_.m
+   Inst   step3_nDIS_cnst_a3_2_0_                   step3.nDIS_cnst_a3_2[0]
+   Inst       step3_2_DIP_i_3_                          step3_2.DIP_i[3]
+   Inst     step3_total_6_6__n                        step3.total_6_6_.n
+   Inst   step3_nDIS_cnst_a3_3_0_                   step3.nDIS_cnst_a3_3[0]
+   Inst           step3_2_G_3_                              step3_2.G[3]
+   Inst     step3_total_6_6__p                        step3.total_6_6_.p
+   Inst   step3_nDIS_cnst_a3_0_                     step3.nDIS_cnst_a3[0]
+   Inst       step3_2_DIP_i_0_                          step3_2.DIP_i[0]
+   Inst     step3_total_6_7__r                        step3.total_6_7_.r
+   Inst         step3_2_C_1_1_                            step3_2.C_1[1]
+   Inst           step3_2_C_0_                              step3_2.C[0]
+   Inst     step3_total_6_7__m                        step3.total_6_7_.m
+   Inst           step3_2_C_1_                              step3_2.C[1]
+   Inst         step3_2_un19_C                            step3_2.un19_C
+   Inst     step3_total_6_7__n                        step3.total_6_7_.n
+   Inst         step3_2_C_1_2_                            step3_2.C_1[2]
+   Inst         step3_2_un35_C                            step3_2.un35_C
+   Inst     step3_total_6_7__p                        step3.total_6_7_.p
+   Inst         step3_2_C_2_2_                            step3_2.C_2[2]
+   Inst                 R_i_6_                                    R_i[6]
+   Inst    step3_wDIS2_i_a3_1_                       step3.wDIS2_i_a3[1]
+   Inst           step3_2_C_2_                              step3_2.C[2]
+   Inst                 R_i_7_                                    R_i[7]
+   Inst   step3_wDIS2_i_a3_0_1_                     step3.wDIS2_i_a3_0[1]
+   Inst         step3_2_C_1_3_                            step3_2.C_1[3]
+   Inst   step3_nDIS_cnst_i_a2_2_                   step3.nDIS_cnst_i_a2[2]
+   Inst    step3_wDIS2_i_o2_4_                       step3.wDIS2_i_o2[4]
+   Inst         step3_2_C_2_3_                            step3_2.C_2[3]
+   Inst       step3_R_ns_a3_3_                          step3.R_ns_a3[3]
+   Inst    step3_wDIS1_i_a3_1_                       step3.wDIS1_i_a3[1]
+   Inst         step3_2_C_3_3_                            step3_2.C_3[3]
+   Inst       step3_R_ns_a3_2_                          step3.R_ns_a3[2]
+   Inst   step3_wDIS1_i_a3_0_1_                     step3.wDIS1_i_a3_0[1]
+   Inst           step3_2_C_3_                              step3_2.C[3]
+   Inst   step3_nDIS_cnst_i_a3_4_                   step3.nDIS_cnst_i_a3[4]
+   Inst       step3_wDIS1_i_0_                          step3.wDIS1_i[0]
+   Inst     step3_2_un22_C_1_1                        step3_2.un22_C_1_1
+   Inst                R_i_10_                                   R_i[10]
+   Inst          step3_G_242_i                             step3.G_242_i
+   Inst       step3_2_un22_C_1                          step3_2.un22_C_1
+   Inst                 R_i_3_                                    R_i[3]
+   Inst     step3_total_6_i_4_                        step3.total_6_i[4]
+   Inst         R_ns_i_a3_3_0_                            R_ns_i_a3_3[0]
+   Inst                 R_i_0_                                    R_i[0]
+   Inst           R_ns_i_a3_0_                              R_ns_i_a3[0]
+   Inst                 R_i_2_                                    R_i[2]
+   Inst       R_ns_i_a3_0_1_0_                          R_ns_i_a3_0_1[0]
+   Inst                 R_i_1_                                    R_i[1]
+   Inst       R_ns_i_a3_0_2_0_                          R_ns_i_a3_0_2[0]
+   Inst       step3_nDIS_sn_m1                          step3.nDIS_sn_m1
+   Inst       R_ns_i_a3_0_3_0_                          R_ns_i_a3_0_3[0]
+   Inst        step3_nDIS_0__r                           step3.nDIS_0_.r
+   Inst         R_ns_i_a3_0_0_                            R_ns_i_a3_0[0]
+   Inst        step3_nDIS_0__m                           step3.nDIS_0_.m
+   Inst   step3_nDIS_cnst_i_a3_1_2_                 step3.nDIS_cnst_i_a3_1[2]
+   Inst        step3_nDIS_0__n                           step3.nDIS_0_.n
+   Inst   step3_nDIS_cnst_i_a3_2_2_                 step3.nDIS_cnst_i_a3_2[2]
+   Inst        step3_nDIS_0__p                           step3.nDIS_0_.p
+   Inst    step3_un1_leftbit_i                       step3.un1_leftbit_i
+   Inst   step3_nDIS_cnst_i_a3_2_                   step3.nDIS_cnst_i_a3[2]
+   Inst      step3_nDIS_0_0__r                         step3.nDIS_0_0_.r
+   Inst   step3_nDIS_cnst_i_a3_1_1_                 step3.nDIS_cnst_i_a3_1[1]
+   Inst      step3_nDIS_0_0__m                         step3.nDIS_0_0_.m
+   Inst   step3_nDIS_cnst_i_a3_1_                   step3.nDIS_cnst_i_a3[1]
+   Inst      step3_nDIS_0_0__n                         step3.nDIS_0_0_.n
+   Inst   step3_nDIS_cnst_i_a3_1_6_                 step3.nDIS_cnst_i_a3_1[6]
+   Inst      step3_nDIS_0_0__p                         step3.nDIS_0_0_.p
+   Inst   step3_nDIS_cnst_i_a3_6_                   step3.nDIS_cnst_i_a3[6]
+   Inst       step3_wDIS2_i_0_                          step3.wDIS2_i[0]
+   Inst   step3_nDIS_cnst_i_a3_1_3_                 step3.nDIS_cnst_i_a3_1[3]
+   Inst       step3_R_ns_i_12_                          step3.R_ns_i[12]
+   Inst   step3_nDIS_cnst_i_a3_3_                   step3.nDIS_cnst_i_a3[3]
+   Inst       step3_R_ns_i_11_                          step3.R_ns_i[11]
+   Inst           wDIS1_i_1_2_                              wDIS1_i_1[2]
+   Inst       step3_R_ns_i_10_                          step3.R_ns_i[10]
+   Inst             wDIS1_i_2_                                wDIS1_i[2]
+   Inst        step3_R_ns_i_7_                           step3.R_ns_i[7]
+   Inst           wDIS1_i_1_5_                              wDIS1_i_1[5]
+   Inst        step3_R_ns_i_5_                           step3.R_ns_i[5]
+   Inst             wDIS1_i_5_                                wDIS1_i[5]
+   Inst        step3_R_ns_i_4_                           step3.R_ns_i[4]
+   Inst           wDIS2_i_1_5_                              wDIS2_i_1[5]
+   Inst   step3_nDIS_cnst_i_a2_1_                   step3.nDIS_cnst_i_a2[1]
+   Inst             wDIS2_i_5_                                wDIS2_i[5]
+   Inst                R_i_12_                                   R_i[12]
+   Inst           wDIS2_i_1_2_                              wDIS2_i_1[2]
+   Inst                R_i_11_                                   R_i[11]
+   Inst             wDIS2_i_2_                                wDIS2_i[2]
+   Inst   step3_nDIS_cnst_i_a2_3_                   step3.nDIS_cnst_i_a2[3]
+   Inst      wDIS2_i_a3_0_1_4_                         wDIS2_i_a3_0_1[4]
+   Inst                R_i_13_                                   R_i[13]
+   Inst        wDIS2_i_a3_0_4_                           wDIS2_i_a3_0[4]
+   Inst                 R_i_5_                                    R_i[5]
+   Inst            R_ns_i_1_0_                               R_ns_i_1[0]
+   Inst   step3_nDIS_cnst_i_a2_6_                   step3.nDIS_cnst_i_a2[6]
+   Inst            R_ns_i_2_0_                               R_ns_i_2[0]
+   Inst                 R_i_4_                                    R_i[4]
+   Inst              R_ns_i_0_                                 R_ns_i[0]
+   Inst   step3_nDIS_cnst_i_a2_5_                   step3.nDIS_cnst_i_a2[5]
+   Inst         R_ns_i_a3_1_0_                            R_ns_i_a3_1[0]
+   Inst        step3_nDIS_5__r                           step3.nDIS_5_.r
+   Inst         R_ns_i_a3_2_0_                            R_ns_i_a3_2[0]
+   Inst        step3_nDIS_5__m                           step3.nDIS_5_.m
+   Inst        step3_nDIS_5__n                           step3.nDIS_5_.n
+   Inst        step3_nDIS_5__p                           step3.nDIS_5_.p
+   Inst          step3_N_213_i                             step3.N_213_i
+   Inst              step3_c_1                                 step3.c_1
+   Inst        step3_nDIS_4__r                           step3.nDIS_4_.r
+   Inst              step3_c_2                                 step3.c_2
+   Inst        step3_nDIS_4__m                           step3.nDIS_4_.m
+   Net        step3_2_p_i_3__n                            step3_2.P_i[3]
+   Net      un1_count_1_0_3__n                          un1_count_1_0[3]
+   Net      step3_2_un47_c_1_n                          step3_2.un47_C_1
+   Net        step3_2_p_i_1__n                            step3_2.P_i[1]
+   Net        step3_2_un42_c_n                            step3_2.un42_C
+   Net        step3_2_un38_c_n                            step3_2.un38_C
+   Net        un1_wdis4_i_4__n                            un1_wDIS4_i[4]
+   Net      step3_2_un47_c_2_n                          step3_2.un47_C_2
+   Net      step3_2_un42_c_1_n                          step3_2.un42_C_1
+   Net        step3_2_un26_c_n                            step3_2.un26_C
+   Net        step3_2_un22_c_n                            step3_2.un22_C
+   Net            temp_tr_7__n                                temp_TR[7]
+   Net            temp_tr_4__n                                temp_TR[4]
+   Net        un1_wdis4_i_2__n                            un1_wDIS4_i[2]
+   Net                 vcc_n_n                                       VCC
+   Net                 gnd_n_n                                       GND
+   Net                z_1_0__n                                    Z_1[0]
+   Net            temp_mr_0__n                                temp_MR[0]
+   Net            temp_mr_1__n                                temp_MR[1]
+   Net            temp_mr_2__n                                temp_MR[2]
+   Net           topred_i_5__n                               TOPRED_i[5]
+   Net            temp_mr_3__n                                temp_MR[3]
+   Net        un1_wdis3_i_0__n                            un1_wDIS3_i[0]
+   Net            temp_tr_5__n                                temp_TR[5]
+   Net        un1_wdis3_i_1__n                            un1_wDIS3_i[1]
+   Net              count_0__n                                  count[0]
+   Net        un1_wdis3_i_2__n                            un1_wDIS3_i[2]
+   Net              count_1__n                                  count[1]
+   Net        un1_wdis3_i_3__n                            un1_wDIS3_i[3]
+   Net              count_2__n                                  count[2]
+   Net        un1_wdis3_i_4__n                            un1_wDIS3_i[4]
+   Net              count_3__n                                  count[3]
+   Net        un1_wdis3_i_5__n                            un1_wDIS3_i[5]
+   Net              total_4__n                                  total[4]
+   Net        un1_wdis3_i_6__n                            un1_wDIS3_i[6]
+   Net        un1_wdis2_i_0__n                            un1_wDIS2_i[0]
+   Net        un1_wdis2_i_1__n                            un1_wDIS2_i[1]
+   Net              total_0__n                                  total[0]
+   Net        un1_wdis2_i_2__n                            un1_wDIS2_i[2]
+   Net              total_1__n                                  total[1]
+   Net        un1_wdis2_i_3__n                            un1_wDIS2_i[3]
+   Net              total_2__n                                  total[2]
+   Net        un1_wdis2_i_4__n                            un1_wDIS2_i[4]
+   Net              total_3__n                                  total[3]
+   Net        un1_wdis2_i_5__n                            un1_wDIS2_i[5]
+   Net              total_5__n                                  total[5]
+   Net        un1_wdis2_i_6__n                            un1_wDIS2_i[6]
+   Net              total_6__n                                  total[6]
+   Net        un1_wdis1_i_0__n                            un1_wDIS1_i[0]
+   Net              total_7__n                                  total[7]
+   Net        un1_wdis1_i_1__n                            un1_wDIS1_i[1]
+   Net              rdis2_0__n                                  rDIS2[0]
+   Net        un1_wdis1_i_2__n                            un1_wDIS1_i[2]
+   Net              rdis2_1__n                                  rDIS2[1]
+   Net        un1_wdis1_i_3__n                            un1_wDIS1_i[3]
+   Net              rdis2_2__n                                  rDIS2[2]
+   Net        un1_wdis1_i_4__n                            un1_wDIS1_i[4]
+   Net              rdis2_3__n                                  rDIS2[3]
+   Net        un1_wdis1_i_5__n                            un1_wDIS1_i[5]
+   Net              rdis2_4__n                                  rDIS2[4]
+   Net        un1_wdis1_i_6__n                            un1_wDIS1_i[6]
+   Net              rdis2_5__n                                  rDIS2[5]
+   Net           midred_i_0__n                               MIDRED_i[0]
+   Net              rdis2_6__n                                  rDIS2[6]
+   Net           midred_i_1__n                               MIDRED_i[1]
+   Net              rdis1_0__n                                  rDIS1[0]
+   Net           midred_i_2__n                               MIDRED_i[2]
+   Net              rdis1_1__n                                  rDIS1[1]
+   Net           midred_i_3__n                               MIDRED_i[3]
+   Net              rdis1_2__n                                  rDIS1[2]
+   Net           topred_i_0__n                               TOPRED_i[0]
+   Net              rdis1_3__n                                  rDIS1[3]
+   Net           topred_i_1__n                               TOPRED_i[1]
+   Net              rdis1_4__n                                  rDIS1[4]
+   Net           topred_i_2__n                               TOPRED_i[2]
+   Net              rdis1_5__n                                  rDIS1[5]
+   Net           topred_i_6__n                               TOPRED_i[6]
+   Net              rdis1_6__n                                  rDIS1[6]
+   Net           topred_i_4__n                               TOPRED_i[4]
+   Net                  r_1__n                                      R[1]
+   Net           topred_i_7__n                               TOPRED_i[7]
+   Net             r_ns_0_8__n                                 R_ns_0[8]
+   Net                  r_2__n                                      R[2]
+   Net            total_i_1__n                                total_i[1]
+   Net             midred_0__n                                 MIDRED[0]
+   Net            total_i_2__n                                total_i[2]
+   Net             midred_1__n                                 MIDRED[1]
+   Net            total_i_0__n                                total_i[0]
+   Net             midred_2__n                                 MIDRED[2]
+   Net            rdis4_i_1__n                                rDIS4_i[1]
+   Net             midred_3__n                                 MIDRED[3]
+   Net            count_i_3__n                                count_i[3]
+   Net              rdis3_0__n                                  rDIS3[0]
+   Net              dip_i_7__n                                  DIP_i[7]
+   Net              rdis3_1__n                                  rDIS3[1]
+   Net          temp_tr_i_4__n                              temp_TR_i[4]
+   Net              rdis3_2__n                                  rDIS3[2]
+   Net          temp_tr_i_5__n                              temp_TR_i[5]
+   Net              rdis3_3__n                                  rDIS3[3]
+   Net      temp_tr_i_3_i_6__n                          temp_TR_i_3_i[6]
+   Net              rdis3_4__n                                  rDIS3[4]
+   Net         step3_2_n_5_i_n                             step3_2.N_5_i
+   Net              rdis3_5__n                                  rDIS3[5]
+   Net         step3_2_n_6_i_n                             step3_2.N_6_i
+   Net              rdis3_6__n                                  rDIS3[6]
+   Net      step3_2_p_i_i_2__n                          step3_2.P_i_i[2]
+   Net             topred_0__n                                 TOPRED[0]
+   Net      step3_2_p_i_i_1__n                          step3_2.P_i_i[1]
+   Net             topred_1__n                                 TOPRED[1]
+   Net      step3_2_p_i_i_3__n                          step3_2.P_i_i[3]
+   Net             topred_2__n                                 TOPRED[2]
+   Net          temp_tr_i_0__n                              temp_TR_i[0]
+   Net             topred_6__n                                 TOPRED[6]
+   Net              dip_i_0__n                                  DIP_i[0]
+   Net             topred_4__n                                 TOPRED[4]
+   Net              dip_i_3__n                                  DIP_i[3]
+   Net             topred_7__n                                 TOPRED[7]
+   Net              dip_i_2__n                                  DIP_i[2]
+   Net          un1_wdis1_0__n                              un1_wDIS1[0]
+   Net              dip_i_1__n                                  DIP_i[1]
+   Net          un1_wdis1_1__n                              un1_wDIS1[1]
+   Net                r_i_9__n                                    R_i[9]
+   Net          un1_wdis1_2__n                              un1_wDIS1[2]
+   Net                r_i_8__n                                    R_i[8]
+   Net          un1_wdis1_3__n                              un1_wDIS1[3]
+   Net                r_i_2__n                                    R_i[2]
+   Net          un1_wdis1_4__n                              un1_wDIS1[4]
+   Net                r_i_1__n                                    R_i[1]
+   Net          un1_wdis1_5__n                              un1_wDIS1[5]
+   Net                r_i_3__n                                    R_i[3]
+   Net          un1_wdis1_6__n                              un1_wDIS1[6]
+   Net                r_i_0__n                                    R_i[0]
+   Net          un1_wdis2_0__n                              un1_wDIS2[0]
+   Net               r_i_10__n                                   R_i[10]
+   Net          un1_wdis2_1__n                              un1_wDIS2[1]
+   Net                r_i_6__n                                    R_i[6]
+   Net          un1_wdis2_2__n                              un1_wDIS2[2]
+   Net                r_i_7__n                                    R_i[7]
+   Net          un1_wdis2_3__n                              un1_wDIS2[3]
+   Net                r_i_4__n                                    R_i[4]
+   Net          un1_wdis2_4__n                              un1_wDIS2[4]
+   Net               r_i_13__n                                   R_i[13]
+   Net          un1_wdis2_5__n                              un1_wDIS2[5]
+   Net                r_i_5__n                                    R_i[5]
+   Net          un1_wdis2_6__n                              un1_wDIS2[6]
+   Net               r_i_12__n                                   R_i[12]
+   Net          un1_wdis3_0__n                              un1_wDIS3[0]
+   Net               r_i_11__n                                   R_i[11]
+   Net          un1_wdis3_1__n                              un1_wDIS3[1]
+   Net          un1_wdis3_2__n                              un1_wDIS3[2]
+   Net          un1_wdis3_3__n                              un1_wDIS3[3]
+   Net          un1_wdis3_4__n                              un1_wDIS3[4]
+   Net          un1_wdis3_5__n                              un1_wDIS3[5]
+   Net          un1_wdis3_6__n                              un1_wDIS3[6]
+   Net              rdis4_0__n                                  rDIS4[0]
+   Net              rdis4_1__n                                  rDIS4[1]
+   Net               r_i_14__n                                   R_i[14]
+   Net              rdis4_2__n                                  rDIS4[2]
+   Net            total_i_5__n                                total_i[5]
+   Net              rdis4_3__n                                  rDIS4[3]
+   Net            count_i_1__n                                count_i[1]
+   Net              rdis4_4__n                                  rDIS4[4]
+   Net      un2_total_i_i_2__n                          un2_total_i_i[2]
+   Net              rdis4_5__n                                  rDIS4[5]
+   Net            rdis4_i_0__n                                rDIS4_i[0]
+   Net        ndis_cnst_1_0__n                            nDIS_cnst_1[0]
+   Net              rdis4_6__n                                  rDIS4[6]
+   Net            count_i_2__n                                count_i[2]
+   Net        ndis_cnst_2_0__n                            nDIS_cnst_2[0]
+   Net            rdis4_i_3__n                                rDIS4_i[3]
+   Net        ndis_cnst_3_0__n                            nDIS_cnst_3[0]
+   Net        un1_count_1_2__n                            un1_count_1[2]
+   Net            rdis4_i_5__n                                rDIS4_i[5]
+   Net      step3_2_c_0_1_1__n                          step3_2.C_0_1[1]
+   Net        un1_count_1_3__n                            un1_count_1[3]
+   Net            rdis4_i_6__n                                rDIS4_i[6]
+   Net      step3_2_c_0_1_2__n                          step3_2.C_0_1[2]
+   Net                  r_0__n                                      R[0]
+   Net            count_i_0__n                                count_i[0]
+   Net      step3_2_c_0_2_2__n                          step3_2.C_0_2[2]
+   Net                  r_3__n                                      R[3]
+   Net        temp_tr_0_1_7__n                            temp_TR_0_1[7]
+   Net                  r_4__n                                      R[4]
+   Net        temp_tr_0_2_7__n                            temp_TR_0_2[7]
+   Net                  r_5__n                                      R[5]
+   Net            total_i_4__n                                total_i[4]
+   Net        temp_tr_0_3_7__n                            temp_TR_0_3[7]
+   Net                  r_6__n                                      R[6]
+   Net            total_i_3__n                                total_i[3]
+   Net    step3_2_un42_c_1_1_n                        step3_2.un42_C_1_1
+   Net                  r_7__n                                      R[7]
+   Net            total_i_6__n                                total_i[6]
+   Net    step3_un5_leftbit_0_1_n                     step3.un5_leftbit_0_1
+   Net                  r_8__n                                      R[8]
+   Net            total_i_7__n                                total_i[7]
+   Net                  r_9__n                                      R[9]
+   Net                 r_10__n                                     R[10]
+   Net                 r_11__n                                     R[11]
+   Net    step3_un1_leftbit_i_n                       step3.un1_leftbit_i
+   Net                 r_12__n                                     R[12]
+   Net              dip_c_0__n                                  DIP_c[0]
+   Net      un1_wdis4_i_1_4__n                          un1_wDIS4_i_1[4]
+   Net                 r_13__n                                     R[13]
+   Net                dip_0__n                                    DIP[0]
+   Net                 r_14__n                                     R[14]
+   Net              dip_c_1__n                                  DIP_c[1]
+   Net      un1_wdis4_i_1_2__n                          un1_wDIS4_i_1[2]
+   Net                dip_1__n                                    DIP[1]
+   Net               un14_2__n                                   un14[2]
+   Net              dip_c_2__n                                  DIP_c[2]
+   Net                z_1_1__n                                    Z_1[1]
+   Net                dip_2__n                                    DIP[2]
+   Net                z_1_2__n                                    Z_1[2]
+   Net              dip_c_3__n                                  DIP_c[3]
+   Net          un2_total_3__n                              un2_total[3]
+   Net                dip_3__n                                    DIP[3]
+   Net            total_6_3__n                                total_6[3]
+   Net            total_6_4__n                                total_6[4]
+   Net            total_6_5__n                                total_6[5]
+   Net              z_1_1_3__n                                  Z_1_1[3]
+   Net            total_6_6__n                                total_6[6]
+   Net              dip_c_7__n                                  DIP_c[7]
+   Net              z_1_1_2__n                                  Z_1_1[2]
+   Net            total_6_7__n                                total_6[7]
+   Net    step3_un1_leftbit_1_n                       step3.un1_leftbit_1
+   Net               r_ns_8__n                                   R_ns[8]
+   Net        un2_total_1_3__n                            un2_total_1[3]
+   Net        un2_total_2_3__n                            un2_total_2[3]
+   Net               r_ns_1__n                                   R_ns[1]
+   Net      un2_total_i_1_2__n                          un2_total_i_1[2]
+   Net               r_ns_2__n                                   R_ns[2]
+   Net      un2_total_i_2_2__n                          un2_total_i_2[2]
+   Net               r_ns_3__n                                   R_ns[3]
+   Net               ndis_0__n                                   nDIS[0]
+   Net         step3_2_n_6_1_n                             step3_2.N_6_1
+   Net               ndis_1__n                                   nDIS[1]
+   Net         step3_2_n_5_1_n                             step3_2.N_5_1
+   Net               ndis_2__n                                   nDIS[2]
+   Net      temp_tr_i_3_1_6__n                          temp_TR_i_3_1[6]
+   Net               ndis_3__n                                   nDIS[3]
+   Net           o_topred_0__n                               o_TOPRED[0]
+   Net     step3_ndis_0__un3_n                         step3.nDIS_0_.un3
+   Net               ndis_4__n                                   nDIS[4]
+   Net           o_topred_1__n                               o_TOPRED[1]
+   Net     step3_ndis_0__un1_n                         step3.nDIS_0_.un1
+   Net               ndis_5__n                                   nDIS[5]
+   Net           o_topred_2__n                               o_TOPRED[2]
+   Net     step3_ndis_0__un0_n                         step3.nDIS_0_.un0
+   Net               ndis_6__n                                   nDIS[6]
+   Net           o_topred_3__n                               o_TOPRED[3]
+   Net    step3_ndis_0_0__un3_n                       step3.nDIS_0_0_.un3
+   Net           o_topred_4__n                               o_TOPRED[4]
+   Net    step3_ndis_0_0__un1_n                       step3.nDIS_0_0_.un1
+   Net           o_topred_5__n                               o_TOPRED[5]
+   Net    step3_ndis_0_0__un0_n                       step3.nDIS_0_0_.un0
+   Net           o_topred_6__n                               o_TOPRED[6]
+   Net     step3_ndis_5__un3_n                         step3.nDIS_5_.un3
+   Net     step3_ndis_5__un1_n                         step3.nDIS_5_.un1
+   Net           o_midred_0__n                               o_MIDRED[0]
+   Net     step3_ndis_5__un0_n                         step3.nDIS_5_.un0
+   Net           o_midred_1__n                               o_MIDRED[1]
+   Net     step3_ndis_4__un3_n                         step3.nDIS_4_.un3
+   Net           o_midred_2__n                               o_MIDRED[2]
+   Net     step3_ndis_4__un1_n                         step3.nDIS_4_.un1
+   Net           o_midred_3__n                               o_MIDRED[3]
+   Net     step3_ndis_4__un0_n                         step3.nDIS_4_.un0
+   Net           o_midred_4__n                               o_MIDRED[4]
+   Net     step3_ndis_3__un3_n                         step3.nDIS_3_.un3
+   Net           o_midred_5__n                               o_MIDRED[5]
+   Net     step3_ndis_3__un1_n                         step3.nDIS_3_.un1
+   Net           o_midred_6__n                               o_MIDRED[6]
+   Net     step3_ndis_3__un0_n                         step3.nDIS_3_.un0
+   Net     step3_ndis_2__un3_n                         step3.nDIS_2_.un3
+   Net        un2_total_i_2__n                            un2_total_i[2]
+   Net           o_botred_0__n                               o_BOTRED[0]
+   Net     step3_ndis_2__un1_n                         step3.nDIS_2_.un1
+   Net             topred_5__n                                 TOPRED[5]
+   Net           o_botred_1__n                               o_BOTRED[1]
+   Net     step3_ndis_2__un0_n                         step3.nDIS_2_.un0
+   Net     step3_un1_leftbit_n                         step3.un1_leftbit
+   Net           o_botred_2__n                               o_BOTRED[2]
+   Net     step3_ndis_1__un3_n                         step3.nDIS_1_.un3
+   Net           o_botred_3__n                               o_BOTRED[3]
+   Net     step3_ndis_1__un1_n                         step3.nDIS_1_.un1
+   Net           o_botred_4__n                               o_BOTRED[4]
+   Net     step3_ndis_1__un0_n                         step3.nDIS_1_.un0
+   Net           o_botred_5__n                               o_BOTRED[5]
+   Net    step3_ndis_0_3__un3_n                       step3.nDIS_0_3_.un3
+   Net           o_botred_6__n                               o_BOTRED[6]
+   Net    step3_ndis_0_3__un1_n                       step3.nDIS_0_3_.un1
+   Net    step3_ndis_0_3__un0_n                       step3.nDIS_0_3_.un0
+   Net             o_dis1_0__n                                 o_DIS1[0]
+   Net    step3_ndis_0_2__un3_n                       step3.nDIS_0_2_.un3
+   Net     step3_un5_leftbit_n                         step3.un5_leftbit
+   Net             o_dis1_1__n                                 o_DIS1[1]
+   Net    step3_ndis_0_2__un1_n                       step3.nDIS_0_2_.un1
+   Net             o_dis1_2__n                                 o_DIS1[2]
+   Net    step3_ndis_0_2__un0_n                       step3.nDIS_0_2_.un0
+   Net                z_1_3__n                                    Z_1[3]
+   Net             o_dis1_3__n                                 o_DIS1[3]
+   Net     step3_ndis_6__un3_n                         step3.nDIS_6_.un3
+   Net             o_dis1_4__n                                 o_DIS1[4]
+   Net     step3_ndis_6__un1_n                         step3.nDIS_6_.un1
+   Net             o_dis1_5__n                                 o_DIS1[5]
+   Net     step3_ndis_6__un0_n                         step3.nDIS_6_.un0
+   Net          un7_total_1__n                              un7_total[1]
+   Net    wdis4_1_3_0__un1_wdis2_4__un3_n             wDIS4_1_3_0_.un1_wDIS2_4_.un3
+   Net          un7_total_2__n                              un7_total[2]
+   Net             o_dis2_0__n                                 o_DIS2[0]
+   Net    wdis4_1_3_0__un1_wdis2_4__un1_n             wDIS4_1_3_0_.un1_wDIS2_4_.un1
+   Net          un7_total_3__n                              un7_total[3]
+   Net             o_dis2_1__n                                 o_DIS2[1]
+   Net    wdis4_1_3_0__un1_wdis2_4__un0_n             wDIS4_1_3_0_.un1_wDIS2_4_.un0
+   Net             o_dis2_2__n                                 o_DIS2[2]
+   Net    wdis4_1_3_0__un1_wdis2_3__un3_n             wDIS4_1_3_0_.un1_wDIS2_3_.un3
+   Net             o_dis2_3__n                                 o_DIS2[3]
+   Net    wdis4_1_3_0__un1_wdis2_3__un1_n             wDIS4_1_3_0_.un1_wDIS2_3_.un1
+   Net             o_dis2_4__n                                 o_DIS2[4]
+   Net    wdis4_1_3_0__un1_wdis2_3__un0_n             wDIS4_1_3_0_.un1_wDIS2_3_.un0
+   Net             o_dis2_5__n                                 o_DIS2[5]
+   Net    wdis4_1_3_0__un1_wdis2_2__un3_n             wDIS4_1_3_0_.un1_wDIS2_2_.un3
+   Net    wdis4_1_3_0__un1_wdis2_2__un1_n             wDIS4_1_3_0_.un1_wDIS2_2_.un1
+   Net             o_dis3_0__n                                 o_DIS3[0]
+   Net    wdis4_1_3_0__un1_wdis2_2__un0_n             wDIS4_1_3_0_.un1_wDIS2_2_.un0
+   Net             o_dis3_1__n                                 o_DIS3[1]
+   Net    wdis4_1_3_0__un1_wdis1_5__un3_n             wDIS4_1_3_0_.un1_wDIS1_5_.un3
+   Net             o_dis3_2__n                                 o_DIS3[2]
+   Net    wdis4_1_3_0__un1_wdis1_5__un1_n             wDIS4_1_3_0_.un1_wDIS1_5_.un1
+   Net             o_dis3_3__n                                 o_DIS3[3]
+   Net    wdis4_1_3_0__un1_wdis1_5__un0_n             wDIS4_1_3_0_.un1_wDIS1_5_.un0
+   Net             o_dis3_4__n                                 o_DIS3[4]
+   Net    wdis4_1_3_0__un1_wdis1_3__un3_n             wDIS4_1_3_0_.un1_wDIS1_3_.un3
+   Net             o_dis3_5__n                                 o_DIS3[5]
+   Net    wdis4_1_3_0__un1_wdis1_3__un1_n             wDIS4_1_3_0_.un1_wDIS1_3_.un1
+   Net    wdis4_1_3_0__un1_wdis1_3__un0_n             wDIS4_1_3_0_.un1_wDIS1_3_.un0
+   Net             o_dis4_0__n                                 o_DIS4[0]
+   Net    wdis4_1_3_0__un1_wdis1_2__un3_n             wDIS4_1_3_0_.un1_wDIS1_2_.un3
+   Net             o_dis4_1__n                                 o_DIS4[1]
+   Net    wdis4_1_3_0__un1_wdis1_2__un1_n             wDIS4_1_3_0_.un1_wDIS1_2_.un1
+   Net             o_dis4_2__n                                 o_DIS4[2]
+   Net    wdis4_1_3_0__un1_wdis1_2__un0_n             wDIS4_1_3_0_.un1_wDIS1_2_.un0
+   Net             o_dis4_3__n                                 o_DIS4[3]
+   Net    step3_total_6_2__un3_n                      step3.total_6_2_.un3
+   Net             o_dis4_4__n                                 o_DIS4[4]
+   Net    step3_total_6_2__un1_n                      step3.total_6_2_.un1
+   Net             o_dis4_5__n                                 o_DIS4[5]
+   Net    step3_total_6_2__un0_n                      step3.total_6_2_.un0
+   Net    step3_un1_wdis2_0__un3_n                    step3.un1_wDIS2_0_.un3
+   Net            o_jumbo_0__n                                o_JUMBO[0]
+   Net    step3_un1_wdis2_0__un1_n                    step3.un1_wDIS2_0_.un1
+   Net            o_jumbo_1__n                                o_JUMBO[1]
+   Net    step3_un1_wdis2_0__un0_n                    step3.un1_wDIS2_0_.un0
+   Net            o_jumbo_2__n                                o_JUMBO[2]
+   Net    step3_un1_wdis1_0__un3_n                    step3.un1_wDIS1_0_.un3
+   Net    step3_un1_wdis1_0__un1_n                    step3.un1_wDIS1_0_.un1
+   Net       o_led_yellow_0__n                           o_LED_YELLOW[0]
+   Net    step3_un1_wdis1_0__un0_n                    step3.un1_wDIS1_0_.un0
+   Net    wdis4_1_3_0__ndis_0_5__un3_n                wDIS4_1_3_0_.nDIS_0_5_.un3
+   Net    wdis4_1_3_0__ndis_0_5__un1_n                wDIS4_1_3_0_.nDIS_0_5_.un1
+   Net    wdis4_1_3_0__ndis_0_5__un0_n                wDIS4_1_3_0_.nDIS_0_5_.un0
+   Net    wdis4_1_3_0__un1_wdis2_5__un3_n             wDIS4_1_3_0_.un1_wDIS2_5_.un3
+   Net    wdis4_1_3_0__un1_wdis2_5__un1_n             wDIS4_1_3_0_.un1_wDIS2_5_.un1
+   Net    wdis4_1_3_0__un1_wdis2_5__un0_n             wDIS4_1_3_0_.un1_wDIS2_5_.un0
+   Net         ndis_0_1__un3_n                             nDIS_0_1_.un3
+   Net         ndis_0_1__un1_n                             nDIS_0_1_.un1
+   Net         ndis_0_1__un0_n                             nDIS_0_1_.un0
+   Net         ndis_0_4__un3_n                             nDIS_0_4_.un3
+   Net         ndis_0_4__un1_n                             nDIS_0_4_.un1
+   Net         ndis_0_4__un0_n                             nDIS_0_4_.un0
+   Net             un14_0_2__n                                 un14_0[2]
+   Net         ndis_0_6__un3_n                             nDIS_0_6_.un3
+   Net          temp_mr_i_2__n                              temp_MR_i[2]
+   Net         ndis_0_6__un1_n                             nDIS_0_6_.un1
+   Net    step3_un5_leftbit_0_n                       step3.un5_leftbit_0
+   Net         ndis_0_6__un0_n                             nDIS_0_6_.un0
+   Net          temp_mr_i_1__n                              temp_MR_i[1]
+   Net      un1_wdis1_1__un3_n                          un1_wDIS1_1_.un3
+   Net          temp_mr_i_0__n                              temp_MR_i[0]
+   Net      un1_wdis1_1__un1_n                          un1_wDIS1_1_.un1
+   Net          temp_tr_0_7__n                              temp_TR_0[7]
+   Net      un1_wdis1_1__un0_n                          un1_wDIS1_1_.un0
+   Net      step3_2_un38_c_i_n                          step3_2.un38_C_i
+   Net      un1_wdis1_4__un3_n                          un1_wDIS1_4_.un3
+   Net      step3_2_un35_c_i_n                          step3_2.un35_C_i
+   Net      un1_wdis1_4__un1_n                          un1_wDIS1_4_.un1
+   Net        step3_2_g_i_3__n                            step3_2.G_i[3]
+   Net      un1_wdis1_4__un0_n                          un1_wDIS1_4_.un0
+   Net        step3_2_c_0_2__n                            step3_2.C_0[2]
+   Net      un1_wdis1_6__un3_n                          un1_wDIS1_6_.un3
+   Net      step3_2_un22_c_i_n                          step3_2.un22_C_i
+   Net      un1_wdis1_6__un1_n                          un1_wDIS1_6_.un1
+   Net      step3_2_un26_c_i_n                          step3_2.un26_C_i
+   Net      un1_wdis1_6__un0_n                          un1_wDIS1_6_.un0
+   Net    step3_2_un38_c_1_i_n                        step3_2.un38_C_1_i
+   Net      un1_wdis2_1__un3_n                          un1_wDIS2_1_.un3
+   Net        step3_2_g_i_2__n                            step3_2.G_i[2]
+   Net      un1_wdis2_1__un1_n                          un1_wDIS2_1_.un1
+   Net    step3_2_un47_c_1_i_n                        step3_2.un47_C_1_i
+   Net      un1_wdis2_1__un0_n                          un1_wDIS2_1_.un0
+   Net        step3_2_c_0_1__n                            step3_2.C_0[1]
+   Net      un1_wdis2_6__un3_n                          un1_wDIS2_6_.un3
+   Net    step3_2_un42_c_1_i_n                        step3_2.un42_C_1_i
+   Net      un1_wdis2_6__un1_n                          un1_wDIS2_6_.un1
+   Net        step3_2_g_i_1__n                            step3_2.G_i[1]
+   Net      un1_wdis2_6__un0_n                          un1_wDIS2_6_.un0
+   Net          step3_2_c_0__n                              step3_2.C[0]
+   Net      step3_2_un42_c_i_n                          step3_2.un42_C_i
+   Net    step3_total_6_3__un3_n                      step3.total_6_3_.un3
+   Net          step3_2_c_1__n                              step3_2.C[1]
+   Net        step3_2_c_0_0__n                            step3_2.C_0[0]
+   Net    step3_total_6_3__un1_n                      step3.total_6_3_.un1
+   Net          step3_2_c_2__n                              step3_2.C[2]
+   Net    step3_total_6_3__un0_n                      step3.total_6_3_.un0
+   Net        temp_tr_i_3_6__n                            temp_TR_i_3[6]
+   Net    step3_total_6_5__un3_n                      step3.total_6_5_.un3
+   Net           step3_2_n_5_n                               step3_2.N_5
+   Net    step3_total_6_5__un1_n                      step3.total_6_5_.un1
+   Net           step3_2_n_6_n                               step3_2.N_6
+   Net    step3_total_6_5__un0_n                      step3.total_6_5_.un0
+   Net    step3_total_6_6__un3_n                      step3.total_6_6_.un3
+   Net    step3_total_6_6__un1_n                      step3.total_6_6_.un1
+   Net    step3_total_6_6__un0_n                      step3.total_6_6_.un0
+   Net    step3_total_6_7__un3_n                      step3.total_6_7_.un3
+   Net    step3_total_6_7__un1_n                      step3.total_6_7_.un1
+   Net    step3_total_6_7__un0_n                      step3.total_6_7_.un0
+   Net                dip_6__n                                    DIP[6]
+   Net            total_6_2__n                                total_6[2]
+   Net                dip_5__n                                    DIP[5]
+   Net                dip_4__n                                    DIP[4]
+   Net              z_1_i_2__n                                  Z_1_i[2]
+   Net              z_1_i_1__n                                  Z_1_i[1]
+   Net          ndis_cnst_0__n                              nDIS_cnst[0]
+   Net            total_6_1__n                                total_6[1]
+   Net          step3_2_g_1__n                              step3_2.G[1]
+   Net      un1_count_1_0_2__n                          un1_count_1_0[2]
+   Net          step3_2_g_2__n                              step3_2.G[2]
+   Net          step3_2_g_3__n                              step3_2.G[3]
+   Net            temp_tr_0__n                                temp_TR[0]
+   Net      step3_2_un38_c_1_n                          step3_2.un38_C_1
+   Net        step3_2_p_i_2__n                            step3_2.P_i[2]
+   Net        step3_2_un35_c_n                            step3_2.un35_C
+End
+Section Type      Name
+// ----------------------------------------------------------------------
+        Input     DIP_7_
+        Input     i_S1_NC
+        Input     i_S1_NO
+        Input     i_S2_NC
+        Input     i_S2_NO
+        Input     DIP_6_
+        Input     DIP_5_
+        Input     DIP_4_
+        Input     DIP_3_
+        Input     DIP_2_
+        Input     DIP_1_
+        Input     DIP_0_
+        Output     o_TOPRED_7_
+        Output     o_MIDRED_7_
+        Output     o_BOTRED_7_
+        Output     o_DIS1_6_
+        Output     o_DIS2_6_
+        Output     o_DIS3_6_
+        Output     o_DIS4_6_
+        Output     o_JUMBO_3_
+        Output     o_LED_YELLOW_1_
+        Output     o_TOPRED_6_
+        Output     o_TOPRED_5_
+        Output     o_TOPRED_4_
+        Output     o_TOPRED_3_
+        Output     o_TOPRED_2_
+        Output     o_TOPRED_1_
+        Output     o_TOPRED_0_
+        Output     o_MIDRED_6_
+        Output     o_MIDRED_5_
+        Output     o_MIDRED_4_
+        Output     o_MIDRED_3_
+        Output     o_MIDRED_2_
+        Output     o_MIDRED_1_
+        Output     o_MIDRED_0_
+        Output     o_BOTRED_6_
+        Output     o_BOTRED_5_
+        Output     o_BOTRED_4_
+        Output     o_BOTRED_3_
+        Output     o_BOTRED_2_
+        Output     o_BOTRED_1_
+        Output     o_BOTRED_0_
+        Output     o_DIS1_5_
+        Output     o_DIS1_4_
+        Output     o_DIS1_3_
+        Output     o_DIS1_2_
+        Output     o_DIS1_1_
+        Output     o_DIS1_0_
+        Output     o_DIS2_5_
+        Output     o_DIS2_4_
+        Output     o_DIS2_3_
+        Output     o_DIS2_2_
+        Output     o_DIS2_1_
+        Output     o_DIS2_0_
+        Output     o_DIS3_5_
+        Output     o_DIS3_4_
+        Output     o_DIS3_3_
+        Output     o_DIS3_2_
+        Output     o_DIS3_1_
+        Output     o_DIS3_0_
+        Output     o_DIS4_5_
+        Output     o_DIS4_4_
+        Output     o_DIS4_3_
+        Output     o_DIS4_2_
+        Output     o_DIS4_1_
+        Output     o_DIS4_0_
+        Output     o_JUMBO_2_
+        Output     o_JUMBO_1_
+        Output     o_JUMBO_0_
+        Output     o_LED_YELLOW_0_
+End

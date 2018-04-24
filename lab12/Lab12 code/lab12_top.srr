@@ -1,0 +1,137 @@
+#Build: Synplify Pro G-2012.09LC-SP1 , Build 035R, Mar 19 2013
+#install: C:\ispLEVER_Classic1_7\synpbase
+#OS: Windows 7 6.1
+#Hostname: EE65PC02
+
+#Implementation: lab12
+
+$ Start of Compile
+#Wed Apr 11 09:43:52 2018
+
+Synopsys Verilog Compiler, version comp201209rcp1, Build 283R, built Mar 19 2013
+@N|Running in 64-bit mode
+Copyright (C) 1994-2012 Synopsys, Inc. This software the associated documentation are confidential and proprietary to Synopsys, Inc. Your use or disclosure of this software subject to the terms and conditions of a written license agreement between you, or your company, and Synopsys, Inc.
+
+@I::"C:\ispLEVER_Classic1_7\synpbase\lib\vlog\umr_capim.v"
+@I::"C:\ispLEVER_Classic1_7\synpbase\lib\vlog\scemi_objects.v"
+@I::"C:\ispLEVER_Classic1_7\synpbase\lib\vlog\scemi_pipes.svh"
+@I::"C:\ispLEVER_Classic1_7\synpbase\lib\vlog\hypermods.v"
+@I::"C:\ispLEVER_Classic1_7\ispcpld\..\cae_library\synthesis\verilog\mach.v"
+@I::"W:\lab12\lab12.h"
+@I::"W:\lab12\cla4.v"
+@I::"W:\lab12\k.v"
+@I::"W:\lab12\lab12.v"
+Verilog syntax check successful!
+Options changed - recompiling
+Selecting top level module lab12_top
+@N: CG364 :"C:\ispLEVER_Classic1_7\ispcpld\..\cae_library\synthesis\verilog\mach.v":417:7:417:14|Synthesizing module OSCTIMER
+
+@N: CG364 :"W:\lab12\lab12.v":347:7:347:12|Synthesizing module button
+
+@N: CG364 :"W:\lab12\k.v":1:7:1:10|Synthesizing module LFSR
+
+@N: CG364 :"W:\lab12\cla4.v":1:7:1:10|Synthesizing module cla4
+
+@N: CG364 :"W:\lab12\lab12.v":1:7:1:15|Synthesizing module lab12_top
+
+@W: CG296 :"W:\lab12\lab12.v":117:8:117:10|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"W:\lab12\lab12.v":118:15:118:21|Referenced variable temp_TR is not in sensitivity list
+@W: CG290 :"W:\lab12\lab12.v":129:9:129:12|Referenced variable XEQY is not in sensitivity list
+@W: CG290 :"W:\lab12\lab12.v":124:4:124:6|Referenced variable XGY is not in sensitivity list
+@W: CG290 :"W:\lab12\lab12.v":134:10:134:12|Referenced variable XLY is not in sensitivity list
+@W: CG296 :"W:\lab12\lab12.v":157:8:157:11|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"W:\lab12\lab12.v":158:4:158:6|Referenced variable DIP is not in sensitivity list
+@W: CG290 :"W:\lab12\lab12.v":159:17:159:23|Referenced variable temp_MR is not in sensitivity list
+@W: CG133 :"W:\lab12\lab12.v":28:10:28:15|No assignment to BOTRED
+@W: CG360 :"W:\lab12\lab12.v":35:11:35:15|No assignment to wire wDIS3
+
+@W: CG133 :"W:\lab12\lab12.v":37:4:37:15|No assignment to JUMBO_unused
+@W: CG133 :"W:\lab12\lab12.v":38:4:38:15|No assignment to LED_YELLOW_L
+@W: CG133 :"W:\lab12\lab12.v":38:18:38:29|No assignment to LED_YELLOW_R
+@W: CL207 :"W:\lab12\lab12.v":158:1:158:2|All reachable assignments to MIDRED[7] assign 0, register removed by optimization.
+@W: CL207 :"W:\lab12\lab12.v":158:1:158:2|All reachable assignments to MIDRED[6] assign 0, register removed by optimization.
+@W: CL207 :"W:\lab12\lab12.v":158:1:158:2|All reachable assignments to MIDRED[5] assign 0, register removed by optimization.
+@W: CL207 :"W:\lab12\lab12.v":158:1:158:2|All reachable assignments to MIDRED[4] assign 0, register removed by optimization.
+@N: CL201 :"W:\lab12\lab12.v":317:0:317:5|Trying to extract state machine for register R
+Extracted state machine for register R
+State machine has 15 reachable states with original encodings of:
+   0000
+   0001
+   0010
+   0011
+   0100
+   0101
+   0110
+   0111
+   1000
+   1001
+   1010
+   1011
+   1100
+   1101
+   1110
+@W: CL246 :"W:\lab12\lab12.v":1:18:1:20|Input port bits 6 to 4 of DIP[7:0] are unused
+
+@A: CL153 :"W:\lab12\lab12.v":28:10:28:15|*Unassigned bits of BOTRED[7:0] are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"W:\lab12\lab12.v":37:4:37:15|*Unassigned bits of JUMBO_unused are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"W:\lab12\lab12.v":38:4:38:15|*Unassigned bits of LED_YELLOW_L are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"W:\lab12\lab12.v":38:18:38:29|*Unassigned bits of LED_YELLOW_R are referenced and tied to 0 -- simulation mismatch possible.
+@W: CL156 :"W:\lab12\lab12.v":35:11:35:15|*Input wDIS3[6:0] to expression [mux] has undriven bits that are tied to 0 -- simulation mismatch possible.
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Apr 11 09:43:52 2018
+
+###########################################################]
+Map & Optimize Report
+
+Synopsys CPLD Technology Mapper, Version maplat, Build 621R, Built Mar 19 2013
+Copyright (C) 1994-2012, Synopsys Inc. This software the associated documentation are confidential and proprietary to Synopsys, Inc. Your use or disclosure of this software subject to the terms and conditions of a written license agreement between you, or your company, and Synopsys, Inc.
+Product Version G-2012.09LC-SP1 
+@N: MF248 |Running in 64-bit mode.
+Encoding state machine R[14:0] (view:work.lab12_top(verilog))
+original code -> new code
+   0000 -> 000000000000001
+   0001 -> 000000000000010
+   0010 -> 000000000000100
+   0011 -> 000000000001000
+   0100 -> 000000000010000
+   0101 -> 000000000100000
+   0110 -> 000000001000000
+   0111 -> 000000010000000
+   1000 -> 000000100000000
+   1001 -> 000001000000000
+   1010 -> 000010000000000
+   1011 -> 000100000000000
+   1100 -> 001000000000000
+   1101 -> 010000000000000
+   1110 -> 100000000000000
+@N: MO106 :"w:\lab12\lab12.v":238:2:247:32|Found ROM, 'wDIS2[6:0]', 10 words by 7 bits 
+@N: MO106 :"w:\lab12\lab12.v":226:2:235:32|Found ROM, 'wDIS1[6:0]', 10 words by 7 bits 
+---------------------------------------
+Resource Usage Report
+
+Simple gate primitives:
+OSCTIMER        1 use
+DFFRH           49 uses
+DFFCRH          8 uses
+DFFSH           2 uses
+DFF             2 uses
+DFFRS           2 uses
+IBUF            9 uses
+OBUF            58 uses
+XOR2            31 uses
+AND2            292 uses
+INV             229 uses
+OR2             33 uses
+
+
+@N: FC100 |Timing Report not generated for this device, please use place and route tools for timing analysis.
+G-2012.09LC-SP1 
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 32MB peak: 97MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Apr 11 09:43:54 2018
+
+###########################################################]

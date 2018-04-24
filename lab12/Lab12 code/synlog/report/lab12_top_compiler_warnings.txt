@@ -1,0 +1,20 @@
+@W: CG296 :"W:\lab12\lab12.v":117:8:117:10|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"W:\lab12\lab12.v":118:15:118:21|Referenced variable temp_TR is not in sensitivity list
+@W: CG290 :"W:\lab12\lab12.v":129:9:129:12|Referenced variable XEQY is not in sensitivity list
+@W: CG290 :"W:\lab12\lab12.v":124:4:124:6|Referenced variable XGY is not in sensitivity list
+@W: CG290 :"W:\lab12\lab12.v":134:10:134:12|Referenced variable XLY is not in sensitivity list
+@W: CG296 :"W:\lab12\lab12.v":157:8:157:11|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"W:\lab12\lab12.v":158:4:158:6|Referenced variable DIP is not in sensitivity list
+@W: CG290 :"W:\lab12\lab12.v":159:17:159:23|Referenced variable temp_MR is not in sensitivity list
+@W: CG133 :"W:\lab12\lab12.v":28:10:28:15|No assignment to BOTRED
+@W: CG360 :"W:\lab12\lab12.v":35:11:35:15|No assignment to wire wDIS3
+@W: CG133 :"W:\lab12\lab12.v":37:4:37:15|No assignment to JUMBO_unused
+@W: CG133 :"W:\lab12\lab12.v":38:4:38:15|No assignment to LED_YELLOW_L
+@W: CG133 :"W:\lab12\lab12.v":38:18:38:29|No assignment to LED_YELLOW_R
+@W: CL207 :"W:\lab12\lab12.v":158:1:158:2|All reachable assignments to MIDRED[7] assign 0, register removed by optimization.
+@W: CL207 :"W:\lab12\lab12.v":158:1:158:2|All reachable assignments to MIDRED[6] assign 0, register removed by optimization.
+@W: CL207 :"W:\lab12\lab12.v":158:1:158:2|All reachable assignments to MIDRED[5] assign 0, register removed by optimization.
+@W: CL207 :"W:\lab12\lab12.v":158:1:158:2|All reachable assignments to MIDRED[4] assign 0, register removed by optimization.
+@W: CL246 :"W:\lab12\lab12.v":1:18:1:20|Input port bits 6 to 4 of DIP[7:0] are unused
+@W: CL156 :"W:\lab12\lab12.v":35:11:35:15|*Input wDIS3[6:0] to expression [mux] has undriven bits that are tied to 0 -- simulation mismatch possible.
+
