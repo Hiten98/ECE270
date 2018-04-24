@@ -1,4 +1,4 @@
-module lab12(DIP, i_S1_NC, i_S1_NO, i_S2_NC, i_S2_NO, o_TOPRED, o_MIDRED, o_BOTRED, o_DIS1, o_DIS2, o_DIS3, o_DIS4, o_JUMBO, o_LED_YELLOW);
+module lab10(DIP, i_S1_NC, i_S1_NO, i_S2_NC, i_S2_NO, o_TOPRED, o_MIDRED, o_BOTRED, o_DIS1, o_DIS2, o_DIS3, o_DIS4, o_JUMBO, o_LED_YELLOW);
 
 
 // ====== DO NOT MODIFY BELOW ======
@@ -100,7 +100,7 @@ localparam charS = 7'b1011011;
 localparam charU = 7'b0111110;
 localparam charY = 7'b0111011;
 
-
+// Jank way of dividing frequency by 4: keep a counter that goes to 4, and clocks only if counter is 4:
 
 always @ (posedge tmr_out)
 	begin
@@ -133,6 +133,7 @@ always @ (posedge tmr_out)
 					end
 				else
 					begin
+          // calculating next states
 						if(DIP[1:0] == 2'b00)
 							begin
 								case(state)
@@ -189,7 +190,7 @@ always @ (posedge tmr_out)
 								endcase
 							end
 					end
-				case (nextState)
+				case (nextState)    //assign states to characters
 					4'b1111: D1 = blank;
 					4'b1101: D1 = blank;
 					4'b0000: D1 = charG;
@@ -208,12 +209,14 @@ always @ (posedge tmr_out)
 					4'b1110: D1 = charU;
 				endcase
 				DIS4 <= DIS3;
+        //scrolling display
 				DIS3 <= DIS2;
 				DIS2 <= DIS1;
 				DIS1 <= D1;
 				state <= nextState;
 
 			end
+    // async reset
 		if(DIP[7] == 1'b1)
 			begin
 				DIS1 <= 7'b0000000;
