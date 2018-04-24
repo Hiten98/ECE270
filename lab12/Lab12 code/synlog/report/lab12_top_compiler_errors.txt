@@ -1,4 +1,0 @@
-@E: CG389 :"W:\lab12\lab12.v":142:7:142:9|Reference to undefined module DFF_BF
-@E: CG389 :"W:\lab12\lab12.v":142:7:142:9|Illegal or Unsupported Syntax within black box. Use: // synthesis translate_off {  unsupported Verilog } // synthesis translate_on 
-@E: CG389 :"W:\lab12\lab12.v":142:7:142:9|Alternatively, set the builtin compiler directive IGNORE_VERILOG_BLACKBOX_GUTS in the Verilog tab of the UI or set `define IGNORE_VERILOG_BLACKBOX_GUTS in any Verilog file.
-

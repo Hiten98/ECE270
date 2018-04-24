@@ -1,6 +1,0 @@
-. lab12_top lab12.v w:\lab12\lab12.v
-step3_2 cla4 cla4.v w:\lab12\cla4.v
-step3 LFSR k.v w:\lab12\k.v
-I1 OSCTIMER  w:\lab12\
-S1 button lab12.v w:\lab12\lab12.v
-S2 button lab12.v w:\lab12\lab12.v

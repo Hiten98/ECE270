@@ -1,4 +1,0 @@
-@N: MF248 |Running in 64-bit mode.
-@N: MO106 :"w:\lab12\lab12.v":238:2:247:32|Found ROM, 'wDIS2[6:0]', 10 words by 7 bits 
-@N: MO106 :"w:\lab12\lab12.v":226:2:235:32|Found ROM, 'wDIS1[6:0]', 10 words by 7 bits 
-@N: FC100 |Timing Report not generated for this device, please use place and route tools for timing analysis.
